@@ -65,10 +65,6 @@ $paragraph-aside-line-height: 1.35 !default;
 $paragraph-aside-font-style: italic !default;
 $paragraph-text-rendering: optimizeLegibility !default;
 
-// We use these to style <code> tags
-$code-font-family: Consolas, 'Liberation Mono', Courier, monospace !default;
-$code-font-weight: bold !default;
-
 // We use these to style anchors
 $anchor-text-decoration: none !default;
 $anchor-font-color: $primary-color !default;
@@ -90,8 +86,9 @@ $definition-list-header-margin-bottom: .3em !default;
 $definition-list-margin-bottom: em-calc(12) !default;
 
 // We use these to style blockquotes
+$blockquote-font-family: $header-font-family;
 $blockquote-font-color: lighten($header-font-color, 30%) !default;
-$blockquote-padding: em-calc(9 20 0 19) !default;
+$blockquote-padding: em-calc(10 20 0 80) !default;
 $blockquote-border: 1px solid #ddd !default;
 $blockquote-cite-font-size: em-calc(13) !default;
 $blockquote-cite-font-color: lighten($header-font-color, 20%) !default;
@@ -252,8 +249,9 @@ $microformat-abbr-font-decoration: none !default;
   }
 
   code {
-    font-family: $code-font-family;
-    font-weight: $code-font-weight;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-rendering: geometricPrecision;
   }
 
   /* Lists */
@@ -265,6 +263,11 @@ $microformat-abbr-font-decoration: none !default;
     margin-bottom: $paragraph-margin-bottom;
     list-style-position: $list-style-position;
     font-family: $paragraph-font-family;
+    padding-left: 2rem;
+  }
+
+  ul {
+    list-style-type: inherit;
   }
 
   /* Unordered Lists */
@@ -318,21 +321,22 @@ $microformat-abbr-font-decoration: none !default;
     text-transform: none;
   }
 
+
   /* Blockquotes */
   blockquote {
     margin: 0 0 $paragraph-margin-bottom;
     padding: $blockquote-padding;
-    font-style: italic;
+    font-family: $blockquote-font-family;
     position: relative;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     &:before {
-      content: "\201C ";
+      content: "‟";
       position: absolute;
-      font-size: 40px;
-      left: -10px;
-      top: -1px;
+      font-size: 100px;
+      left: 13px;
+      top: -27px;
       padding: 0 10px 0 0;
-      color: #888;
+      color: rgba(136, 136, 136, 0.34);
     }
 
     cite {

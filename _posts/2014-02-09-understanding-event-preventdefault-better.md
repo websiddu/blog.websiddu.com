@@ -10,17 +10,17 @@ It's pretty common that many of us use `event.preventDefault` and `return false`
 
 Let's see an example, say in your awesome cool website you have a link to google.com and you want to show google.com in a modal window instead opening up in the new tab, then you will do something similar to below.
 
-```prettyprint javascript
-  $("a.open_modal").click(function(event) {
-   event.preventDefault();
-     // Open modal
-     $('#modal').modal($(this).attr('href'));
-  }
-```
+{% highlight javascript %}
+$("a.open_modal").click(function(event) {
+  event.preventDefault();
+  // Open modal
+  $('#modal').modal($(this).attr('href'));
+}
+{% endhighlight %}
 
 The example above is specific to jQuery, However `preventDefault()` is a JavaScript function on an event. Most of the developers think that `preventDefault()` is a jQuery function but its not. See the below example
 
-```prettyprint html
+{% highlight html %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,7 +46,8 @@ The example above is specific to jQuery, However `preventDefault()` is a JavaScr
   </form>
 </body>
 </html>
-```
+{% endhighlight %}
+
 Above example stops the normal form submit when you click on the submit button. See in action below
 
 <a class="jsbin-embed" href="http://jsbin.com/dasob/8/embed?output">preventDefault example</a><script src="http://static.jsbin.com/js/embed.js"></script>
@@ -58,16 +59,16 @@ So now we successfully prevented the default action, now you may ask how do I fi
 > event.defaultPrevented is a boolean turned to true when event.preventDefault() is called.
 
 
-```prettyprint javascript
- if (e.defaultPrevented) {
-   /* the default was prevented */
- }
-```
+{% highlight js %}
+if (e.defaultPrevented) {
+  /* the default was prevented */
+}
+{% endhighlight %}
 
 
 Browser support for event.defaultPrevented
 
-<table class="compat-table">
+<table class="table">
     <tbody>
       <tr>
         <th>Feature</th>

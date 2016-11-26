@@ -54,14 +54,21 @@ I found 3 people were working for that project "Deepak Su###an", "Prateek Mi###a
 ## The email
 I decided to write an email asking him what they were working on and how should I get ready. Here is the out line of the e-mail
 
-	Dear Dinesh,
+{% highlight html %}
 
-	I am xyz. I am working in so and so.. I am interested in so and so.. I did this in my B-tech.. these are some papers that I submitted at different conferences.. here is some of my work (portfolio link) ..
+Dear Dinesh,
 
-	I am wishing to join the labs some time in my career. How could I prepare for it and what are you guys working on currently.
+I am xyz. I am working in so and so.. I am interested in so and so..
+I did this in my B-tech.. these are some papers that I submitted at
+different conferences.. here is some of my work (portfolio link) ..
 
-	Thanks,
-	Siddhartha
+I am wishing to join the labs some time in my career.
+How could I prepare for it and what are you guys working on currently.
+
+Thanks,
+Siddhartha
+
+{% endhighlight %}
 
 And frankly, I was not expecting any reply from him. However after couple of days I got a reply from Dinesh mentioning the things they were working on and still remember it was a 3 line email with too many jargons (Which I didn't understand at that time) and at the end it read "Hey we are recruiting, send me your resume if you are interested". I read that email like 20 times, I swear! 
 

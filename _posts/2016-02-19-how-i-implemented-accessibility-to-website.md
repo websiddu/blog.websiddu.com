@@ -12,7 +12,7 @@ In other words, universal design means creating a product that is usable for any
 
 Universal design can be applied to any physical or digital products. Since I am interested in websites, I am going to only talk about digital aspects of universal design in this post. One of the main digital aspects of universal design is web accessibility, which mainly focused on visual disabilities. When I said accessible previously, I referred to web accessibility that was for visually disabled people. In this article, I will mainly talk about making the websites accessible for visually disabled people.
 
-"Every designer has a portfolio website, but very few of them are accessible."
+> Every designer has a portfolio website, but very few of them are accessible.
 
 I got really frustrated and disappointed when I saw a designer''s website that was not accessible at all but was full of the saying of empathy and accessibility. As a universal design advocate, I decided to take that little extra time to make my portfolio website accessible. And here began my journey.
 
@@ -23,7 +23,7 @@ Visually disabled people use something called **screen readers** to access the w
 
 To begin with, I was well aware of adding `alt` attributes to the images and titles to the hyperlinks. These alt tags were super helpful for screen reader users since they could describe what the image was. Therefore, I went through all my web pages and added alt tags and titles to the images.
 
-_I saw many portfolios that had images with text but leaving no clue for the screen readers on what the image was. This made me little disappointed because I believed that designers should really care about the things they designed that were able to access to everyone._
+I saw many portfolios that had images with text but leaving no clue for the screen readers on what the image was. This made me little disappointed because I believed that designers should really care about the things they designed that were able to access to everyone.
 
 ### Navigation & Lists
 Navigation places an important role when it comes to keyboard users. Make sure that your navigation uses the semantic markup like `nav` tags and `role=navigation` so that screen readers will detect these areas and enable users to jump from one section to the others.
@@ -35,11 +35,11 @@ Lists can be very effective when being used in a proper manner. Make sure that y
 ### Font-icons
 Using font icons will block Mac Voice Over. It will stop reading once it finds a font icon. Make sure that your font icon uses  `aria-hidden=true` and add a description of the icon with `sr-only` class. Check the below example
 
-```language-markup
+{% highlight html %}
 <i class="icon icon-close">
-    <span class="sr-only"> Click here to close </span>
+  <span class="sr-only"> Click here to close </span>
 </i>
-```
+{% endhighlight %}
 
 ### Angular JS & SPA''s
 
@@ -50,21 +50,18 @@ The roles, their characteristics, the states and properties they support, and sp
 
 For example
 
-```language-markup
+{% highlight html %}
 <ul role="menubar">
  <!-- Rule 2A: "File" label via aria-labelledby -->
   <li role="menuitem" aria-haspopup="true" aria-labelledby="fileLabel"><span id="fileLabel">File</span>
     <ul role="menu">
-
       <!-- Rule 2C: "New" label via Namefrom:contents -->
-            <li role="menuitem">New</li>
-            <li role="menuitem">Openâ€¦</li>
-            â€¦
-          </ul>
-        </li>
-        â€¦
-      </ul>
-      ```
+      <li role="menuitem">New</li>
+      <li role="menuitem">Open</li>
+    </ul>
+  </li>
+</ul>
+{% endhighlight %}
 
 ### Color contrast
 

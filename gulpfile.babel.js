@@ -31,7 +31,7 @@ const spawn = childProcess.spawn;
 			// .pipe($.sourcemaps.write())
 			.pipe(gulp.dest('.tmp/public/css/'))
 			.pipe(stream())
-			.pipe(gulp.dest('public/css/'));
+			.pipe(gulp.dest('assets/'));
 		// .pipe($.notify({
 		// 	title: 'Jekyll',
 		// 	message: 'CSS generated'
@@ -66,13 +66,14 @@ gulp.task('serve', ['jekyll', 'styles', 'scripts'], () => {
 	browserSync({
 		notify: false,
 		port: 9000,
-		proxy: 'localhost:4000',
+		proxy: 'localhost:4010',
 		browser: [], // use 'google chrome' and/or 'firefox' to launch browser
 		serveStatic: ['.tmp']
 	});
 
 	gulp.watch([
 		'_site/**/*.html',
+		'_site/assets/**/*.*',
 		'_site/public/img/**/*',
 		'_site/public/js/**/*'
 	]).on('change', function(e) {
