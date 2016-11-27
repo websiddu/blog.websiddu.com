@@ -24,8 +24,12 @@ $site-footer-border-color: rgba(0, 0, 0, 0.1);
 
 .site-nav {
   .nav {
-    padding: 0 1rem;
+    padding: 0 1vw;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -37,7 +41,7 @@ $site-footer-border-color: rgba(0, 0, 0, 0.1);
   }
 
   .posts {
-    margin: 4rem 0;
+    margin: 7rem 0;
     section {
       margin-bottom: 3rem;
     }
