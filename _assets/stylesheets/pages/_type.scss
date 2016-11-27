@@ -57,7 +57,7 @@ $small-font-color: lighten($header-font-color, 30%) !default;
 // We use these to style paragraphs
 $paragraph-font-family: inherit !default;
 $paragraph-font-weight: normal !default;
-$paragraph-font-size: 1.22em !default;
+$paragraph-font-size: 1.22rem !default;
 $paragraph-line-height: 1.55 !default;
 $paragraph-margin-bottom: em-calc(20) !default;
 $paragraph-aside-font-size: em-calc(14) !default;
@@ -127,7 +127,7 @@ $microformat-abbr-font-decoration: none !default;
 
 // These will throw a deprecation warning if used within a media query.
 %lead {
-  font-size: $paragraph-font-size + em-calc(3.5);
+  font-size: $paragraph-font-size;
   line-height: 1.6;
 }
 
@@ -276,6 +276,7 @@ $microformat-abbr-font-decoration: none !default;
       ul,
       ol {
         margin-bottom: 0;
+        font-size: $paragraph-font-size;
         font-size: 1em; /* Override nested font-size change */
       }
     }
