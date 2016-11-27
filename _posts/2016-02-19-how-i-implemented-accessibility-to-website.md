@@ -19,16 +19,12 @@ I got really frustrated and disappointed when I saw a designer's website that wa
 ### The Basics
 Visually disabled people use something called **screen readers** to access the web content. Screen readers are special softwares that will read the content on the screen to them and give some additional powerful shortcuts to help them navigate. There are multiple screen reader softwares available in the market. The most popular ones are JAWS for Windows, NVIDIA for Windows, and Voiceover for Mac iOS. As a Mac user, I used Voice Over(Command + F5 to activate) to work on my website accessibility.
 
-![](http://i.giphy.com/LkjlH3rVETgsg.gif)
-
 To begin with, I was well aware of adding `alt` attributes to the images and titles to the hyperlinks. These alt tags were super helpful for screen reader users since they could describe what the image was. Therefore, I went through all my web pages and added alt tags and titles to the images.
 
 I saw many portfolios that had images with text but leaving no clue for the screen readers on what the image was. This made me little disappointed because I believed that designers should really care about the things they designed that were able to access to everyone.
 
 ### Navigation & Lists
 Navigation places an important role when it comes to keyboard users. Make sure that your navigation uses the semantic markup like `nav` tags and `role=navigation` so that screen readers will detect these areas and enable users to jump from one section to the others.
-
-![](http://i.giphy.com/EWKJvpuRlBocM.gif)
 
 Lists can be very effective when being used in a proper manner. Make sure that you use `ul` and `li` tags in proper places such as when there is a list of projects or list of tags.
 
@@ -68,9 +64,6 @@ For example
 [We know](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast) that our color contrast ratio should be 3:1 for non-decorative text, sized larger than 18 point or larger than 14 point if bold. Text smaller than that should meet a contrast ratio of at least 4.5:1.
 
 I used http://webaim.org/resources/contrastchecker/ to check the color contrast ratios on my website.
-
-![](http://i.giphy.com/UslGBU1GPKc0g.gif)
-
 
 ### Final thoughts
 It's very important for designers to make sure that their portfolio websites are accessible. Here are my takeaways.

@@ -10,14 +10,14 @@ destination:          _site
 inc:
   # Blog Information
   title:        "Siddhartha Gudipati"
-  subtitle:     "The photos and travel"
+  subtitle:     "Random thought about design, technology, beauty, and more..."
   cover_image:  blog-cover.jpg
   logo:         logo.png
 
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
+    shortname:  websiddu
 
   # Sharing settings
   sharing:
