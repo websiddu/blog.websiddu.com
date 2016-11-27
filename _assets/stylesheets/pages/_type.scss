@@ -27,19 +27,19 @@ $text-direction: ltr;
 
 // We use these to control header font styles
 $header-font-family: "Roboto Mono", "Helvetica", Helvetica, Arial, sans-serif !default;
-$header-font-weight: 500 !default;
+$header-font-weight: 600 !default;
 $header-font-style: normal !default;
 $header-font-color: #222 !default;
 $header-line-height: 1.5 !default;
 $header-top-margin: .2em !default;
-$header-bottom-margin: .5em !default;
+$header-bottom-margin: .2em !default;
 $header-text-rendering: optimizeLegibility !default;
 
 // We use these to control header font sizes
-$h1-font-size: em-calc(45) !default;
-$h2-font-size: em-calc(35) !default;
-$h3-font-size: em-calc(30) !default;
-$h4-font-size: em-calc(22) !default;
+$h1-font-size: em-calc(32) !default;
+$h2-font-size: em-calc(27) !default;
+$h3-font-size: em-calc(22) !default;
+$h4-font-size: em-calc(18) !default;
 $h5-font-size: em-calc(16) !default;
 $h6-font-size: 1em !default;
 
@@ -88,7 +88,7 @@ $definition-list-margin-bottom: em-calc(12) !default;
 // We use these to style blockquotes
 $blockquote-font-family: $header-font-family;
 $blockquote-font-color: lighten($header-font-color, 30%) !default;
-$blockquote-padding: em-calc(10 20 0 80) !default;
+$blockquote-padding: em-calc(10 20 0 70) !default;
 $blockquote-border: 1px solid #ddd !default;
 $blockquote-cite-font-size: em-calc(13) !default;
 $blockquote-cite-font-color: lighten($header-font-color, 20%) !default;
@@ -213,10 +213,10 @@ $microformat-abbr-font-decoration: none !default;
     }
   }
 
-  h1 { font-size: $h1-font-size - em-calc(10); }
-  h2 { font-size: $h2-font-size - em-calc(10); }
-  h3 { font-size: $h3-font-size - em-calc(5); }
-  h4 { font-size: $h4-font-size - em-calc(5); }
+  h1 { font-size: $h1-font-size; }
+  h2 { font-size: $h2-font-size; }
+  h3 { font-size: $h3-font-size; }
+  h4 { font-size: $h4-font-size; }
   h5 { font-size: $h5-font-size; }
   h6 { font-size: $h6-font-size; }
 
@@ -332,11 +332,11 @@ $microformat-abbr-font-decoration: none !default;
     &:before {
       content: "‟";
       position: absolute;
-      font-size: 100px;
-      left: 13px;
-      top: -27px;
+      font-size: 90px;
+      left: 18px;
+      top: -24px;
       padding: 0 10px 0 0;
-      color: rgba(136, 136, 136, 0.34);
+      color: rgba(136,136,136,0.2);
     }
 
     cite {
