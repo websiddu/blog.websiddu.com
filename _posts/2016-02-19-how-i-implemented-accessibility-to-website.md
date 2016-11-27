@@ -8,13 +8,13 @@ I am a designer who is full of empathy and I strongly believe in universal desig
 
 > Universal design (often inclusive design) refers to broad-spectrum ideas meant to produce buildings, products and environments that are inherently accessible to older people, people without disabilities, and people with disabilities.
 
-In other words, universal design means creating a product that is usable for anyone. When I say anyone, I mean people who have qualified knowledge to use that product. Universal design is hard and sometimes it''s impossible to cover everything, but with some extra effort we can cover 80% to 90% of the aspect of it.
+In other words, universal design means creating a product that is usable for anyone. When I say anyone, I mean people who have qualified knowledge to use that product. Universal design is hard and sometimes it's impossible to cover everything, but with some extra effort we can cover 80% to 90% of the aspect of it.
 
 Universal design can be applied to any physical or digital products. Since I am interested in websites, I am going to only talk about digital aspects of universal design in this post. One of the main digital aspects of universal design is web accessibility, which mainly focused on visual disabilities. When I said accessible previously, I referred to web accessibility that was for visually disabled people. In this article, I will mainly talk about making the websites accessible for visually disabled people.
 
 > Every designer has a portfolio website, but very few of them are accessible.
 
-I got really frustrated and disappointed when I saw a designer''s website that was not accessible at all but was full of the saying of empathy and accessibility. As a universal design advocate, I decided to take that little extra time to make my portfolio website accessible. And here began my journey.
+I got really frustrated and disappointed when I saw a designer's website that was not accessible at all but was full of the saying of empathy and accessibility. As a universal design advocate, I decided to take that little extra time to make my portfolio website accessible. And here began my journey.
 
 ### The Basics
 Visually disabled people use something called **screen readers** to access the web content. Screen readers are special softwares that will read the content on the screen to them and give some additional powerful shortcuts to help them navigate. There are multiple screen reader softwares available in the market. The most popular ones are JAWS for Windows, NVIDIA for Windows, and Voiceover for Mac iOS. As a Mac user, I used Voice Over(Command + F5 to activate) to work on my website accessibility.
@@ -41,7 +41,7 @@ Using font icons will block Mac Voice Over. It will stop reading once it finds a
 </i>
 {% endhighlight %}
 
-### Angular JS & SPA''s
+### Angular JS & SPA's
 
 Another challenge is accessibility for single page application. As there is no page refresh in the navigation of single page applications, the screen readers will not detect the page change. I have to inform the page change manually using a `$.announce`.  I also wrote a detailed blog post about implementing accessibility for single page applications.
 
@@ -73,7 +73,7 @@ I used http://webaim.org/resources/contrastchecker/ to check the color contrast 
 
 
 ### Final thoughts
-It''s very important for designers to make sure that their portfolio websites are accessible. Here are my takeaways.
+It's very important for designers to make sure that their portfolio websites are accessible. Here are my takeaways.
 
 1. Do the basics right.
 2. Use navigation & lists intelligently.

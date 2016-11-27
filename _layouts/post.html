@@ -6,7 +6,8 @@ layout: base
         <section role="article">
             <h2 class="post-title" role="title">{{page.title}}</h2>
             <div class="post-meta" role="meta">
-                <time>{{ page.date | date: '%B %d, %Y' }}</time>
+                <time>{{ page.date | date: '%B %d, %Y' }}</time> &mdash;
+                <span>{{ page.content | reading_time }}</span>
             </div>
             <main class="content">
                 {{ content }}
