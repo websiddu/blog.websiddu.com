@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building a design portfolio website
+draft: true
 ---
 
 Building a design portfolio website can be a daunting task especially when you are just starting with your design career or you are design student with no coding skills. I have heard many question from my classmates asking where do I start. In this post I will try to explain how to build a portfolio website end to end. I will try to cover most of the topics in detail. I divided this post into different parts, in the first part I will explain the purpose of the design portfolio website, in the second part I will give some ideas to design the layout of your website, in the third part we will see different options for building the website and finally different options to deploy your website.

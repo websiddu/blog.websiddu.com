@@ -27,7 +27,7 @@ $text-direction: ltr;
 
 // We use these to control header font styles
 $header-font-family: "Roboto Mono", "Helvetica", Helvetica, Arial, sans-serif !default;
-$header-font-weight: 600 !default;
+$header-font-weight: normal !default;
 $header-font-style: normal !default;
 $header-font-color: #222 !default;
 $header-line-height: 1.5 !default;
@@ -56,7 +56,7 @@ $small-font-color: lighten($header-font-color, 30%) !default;
 
 // We use these to style paragraphs
 $paragraph-font-family: inherit !default;
-$paragraph-font-weight: normal !default;
+$paragraph-font-weight: 300 !default;
 $paragraph-font-size: 1.22rem !default;
 $paragraph-line-height: 1.55 !default;
 $paragraph-margin-bottom: em-calc(20) !default;
@@ -163,6 +163,7 @@ $microformat-abbr-font-decoration: none !default;
     margin:0;
     padding:0;
     direction: $text-direction;
+    font-weight: 300;
   }
 
   /* Default Link Styles */
@@ -258,7 +259,7 @@ $microformat-abbr-font-decoration: none !default;
   ul,
   ol,
   dl {
-    font-size: $paragraph-font-size;
+    font-size: $paragraph-font-size - 0.1rem;
     line-height: $paragraph-line-height;
     margin-bottom: $paragraph-margin-bottom;
     list-style-position: $list-style-position;
