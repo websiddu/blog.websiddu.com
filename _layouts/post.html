@@ -9,7 +9,12 @@ layout: base
                 <time>{{ page.date | date: '%B %d, %Y' }}</time> &mdash;
                 <span>{{ page.content | reading_time }}</span>
             </div>
-            <main class="content">
+            <main class="post-content">
+                {% if page.cover %}
+                <div class="post-cover">
+                    <img src="{{page.cover}}" alt="{{page.title}}">
+                </div>
+                {% endif %}
                 {{ content }}
             </main>
         </section>

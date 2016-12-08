@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How I implemented accessibility for my portfolio website?
+cover: images/covers/accessibility.jpg
 ---
 
 

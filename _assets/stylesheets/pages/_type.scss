@@ -32,7 +32,7 @@ $header-font-style: normal !default;
 $header-font-color: #222 !default;
 $header-line-height: 1.5 !default;
 $header-top-margin: .2em !default;
-$header-bottom-margin: .2em !default;
+$header-bottom-margin: .3em !default;
 $header-text-rendering: optimizeLegibility !default;
 
 // We use these to control header font sizes
@@ -46,7 +46,7 @@ $h6-font-size: 1em !default;
 // These control how subheaders are styled.
 $subheader-line-height: 1.4 !default;
 $subheader-font-color: lighten($header-font-color, 30%) !default;
-$subheader-font-weight: 300 !default;
+$subheader-font-weight: 400 !default;
 $subheader-top-margin: .2em !default;
 $subheader-bottom-margin: .5em !default;
 
@@ -56,9 +56,9 @@ $small-font-color: lighten($header-font-color, 30%) !default;
 
 // We use these to style paragraphs
 $paragraph-font-family: inherit !default;
-$paragraph-font-weight: 300 !default;
+$paragraph-font-weight: 400 !default;
 $paragraph-font-size: 1.22rem !default;
-$paragraph-line-height: 1.55 !default;
+$paragraph-line-height: 1.65 !default;
 $paragraph-margin-bottom: em-calc(20) !default;
 $paragraph-aside-font-size: em-calc(14) !default;
 $paragraph-aside-line-height: 1.35 !default;
@@ -163,7 +163,7 @@ $microformat-abbr-font-decoration: none !default;
     margin:0;
     padding:0;
     direction: $text-direction;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   /* Default Link Styles */
@@ -205,7 +205,8 @@ $microformat-abbr-font-decoration: none !default;
     margin-top: $header-top-margin;
     margin-bottom: $header-bottom-margin;
     line-height: $header-line-height;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.03em;
+    position: relative;
 
     small {
       font-size: $small-font-size;

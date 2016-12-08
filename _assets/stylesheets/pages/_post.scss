@@ -23,3 +23,28 @@
   color: $grey;
   letter-spacing: -0.04rem;
 }
+
+.post-content {
+  h1, h2, h3, h4, h5 {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  p {
+    img {
+      margin: 0 auto;
+      display: block;
+      max-width: 100%;
+    }
+  }
+}
+
+.post-cover {
+  max-height: 50vh;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+  margin-bottom: 2rem;
+  display: block;
+  border-radius: 2px;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.1), 0 10px 15px rgba(0,0,0,0.12);
+}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Integrating node apps with UW's SAML
+cover: images/covers/saml.jpg
 ---
 
 As part of my on-campus jobs, I built a custom form builder for the UW Dept of Sustainability. I used MEAN (MongoDB, Express.js, Angular.js, Node) as my tech stack. I was the only designer and developer for the whole application. So, for that I was required to integrate the application with UW NetID using SAML. After toiling for a couple of months, I was able to successfully integrate UWNetID with the node application. There was no good documentation on how to do that. So, I decided to write this awesome blog post to help other people like me.

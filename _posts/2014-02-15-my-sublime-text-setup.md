@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Sublime Text setup
+cover: images/covers/sublime.jpg
 ---
 
 It's obvious that almost all web developer and front-end developers use Sublime Text. Every one has there own use case and reasons for using ST, some might say its clear, fast and slim some might say its beautiful, highly customizeble and slick. I want to share my ST settings and plugins that I use as a front-end developer.

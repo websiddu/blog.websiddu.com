@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My website is build on open-source
+cover: images/covers/website.jpg
 ---
 
 Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is a little tedious task if I want to do this even if I  misspelt some thing in the content.

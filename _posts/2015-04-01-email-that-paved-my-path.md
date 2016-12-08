@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Email that paved my path
+cover: images/covers/email-that-paved-my-path.jpg
 ---
 
 This story takes us back to 2011, the year when I had received my appointment letter from Tata Consultancy Services after patiently waiting for 5 months. On the 23rd of September, I became a part of their Initial Learning Program(ILP) along with 500 other participants. My interests or preferences weren't taken into account when I was allotted the Java stream exactly like <a href="https://www.youtube.com/embed/ZuU8fRrMvMo?rel=0&showinfo=0&autoplay=true" target="_blank">this</a>.
@@ -47,9 +48,6 @@ Any TCSer's day should start with ultimatix and should end with ultimatix. Ultim
 "Web 2.0" - Ahh! success
 
 I found 3 people were working for that project "Deepak Su###an", "Prateek Mi###a", "<a href="https://twitter.com/dineshweb" target="_blank">Dinesh Pothineni</a>" (Yo! Privacy man ;)). And in all the 3 names, <a href="https://twitter.com/dineshweb" target="_blank">Dinesh Pothineni</a> sounded familiar (Its a telugu name).
-
-![It works](http://i.giphy.com/5BgqPLsvG8dMI.gif)
-
 
 ## The email
 I decided to write an email asking him what they were working on and how should I get ready. Here is the out line of the e-mail
