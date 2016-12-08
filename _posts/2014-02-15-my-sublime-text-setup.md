@@ -14,7 +14,7 @@ Some of the main features of ST that I believe are Beautiful User Interface, Awe
 
 First off, I want to share my ST User settings; You can see the settings below or you can get it from this <a href="https://gist.github.com/websiddu/2c7150bad44ad2b7ab27" target="_blank">gist</a>.
 
-```language-javascript
+{% highlight js %}
 {
   "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
   "detect_indentation": true,
@@ -54,19 +54,19 @@ First off, I want to share my ST User settings; You can see the settings below o
   [
   ]
 }
-```
+{% endhighlight %}
 You can make this as your settings just by copying and pasting this to your User - Settings.
 
-Now as I said before, ST is highly customisable there are many plugins that you can do almost every thing you want just by installing plugin. Here are some plugins that I use.
+Now as I said before, ST is highly customized there are many plugins that you can do almost every thing you want just by installing plugin. Here are some plugins that I use.
 
 
 #### Package Control
 
-Package Control is one of my favorite plugins, it allows users to manage packages very easily, with one shortcut you have access to a long list of plugins available to install and update is automaticly handled. To install it open the console View &rarr; Show Console or **Ctrl + `**, then paste the following code :
+Package Control is one of my favorite plugins, it allows users to manage packages very easily, with one shortcut you have access to a long list of plugins available to install and update is automatically handled. To install it open the console View &rarr; Show Console or **Ctrl + `**, then paste the following code :
 
-```language-python
+{% highlight python %}
 import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
-```
+{% endhighlight %}
 
 or you can visit <a href="https://sublime.wbond.net/installation" target="_blank">https://sublime.wbond.net/installation</a>
 
@@ -114,5 +114,4 @@ Ever wanted to paste incrementing numbers or five lines from your clipboard into
 
 ![Text pastry](https://lh6.googleusercontent.com/-qWAwdcZQdKk/UxwslVYcbMI/AAAAAAAABOE/ltyB54FB52w/s0-I/Screen%2BShot%2B2014-03-09%2Bat%2B2.23.48%2Bpm.png)
 
-
-More details https://github.com/duydao/Text-Pastry
+More details <a href="https://github.com/duydao/Text-Pastry" target="_blank">https://github.com/duydao/Text-Pastry</a>
