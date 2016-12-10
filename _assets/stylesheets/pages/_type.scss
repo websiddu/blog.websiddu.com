@@ -26,7 +26,7 @@ $text-direction: ltr;
 
 
 // We use these to control header font styles
-$header-font-family: "Roboto Mono", "Helvetica", Helvetica, Arial, sans-serif !default;
+$header-font-family: "Roboto Mono", "Inconsolata", "Helvetica", Helvetica, Arial, sans-serif !default;
 $header-font-weight: normal !default;
 $header-font-style: normal !default;
 $header-font-color: #222 !default;
@@ -58,7 +58,7 @@ $small-font-color: lighten($header-font-color, 30%) !default;
 $paragraph-font-family: inherit !default;
 $paragraph-font-weight: 400 !default;
 $paragraph-font-size: 1.22rem !default;
-$paragraph-line-height: 1.65 !default;
+$paragraph-line-height: 1.55 !default;
 $paragraph-margin-bottom: em-calc(20) !default;
 $paragraph-aside-font-size: em-calc(14) !default;
 $paragraph-aside-line-height: 1.35 !default;
@@ -331,7 +331,6 @@ $microformat-abbr-font-decoration: none !default;
     padding: $blockquote-padding;
     font-family: $blockquote-font-family;
     position: relative;
-    font-size: 0.9rem;
     &:before {
       content: "‟";
       position: absolute;
@@ -360,6 +359,7 @@ $microformat-abbr-font-decoration: none !default;
   blockquote p {
     line-height: $paragraph-line-height;
     color: $blockquote-font-color;
+    font-size: 1.15rem;
   }
 
   /* Microformats */
