@@ -19,12 +19,14 @@
 .post-meta {
   font-family: $header-font-family;
   font-size: 0.95rem;
-  margin: 0 0 3rem;
-  color: $grey;
+  // margin: 0 0 3rem;
+  color: $grey-light;
   letter-spacing: -0.04rem;
 }
 
 .post-content {
+  margin: 3rem 0 0;
+
   h1, h2, h3, h4, h5 {
     color: rgba(0, 0, 0, 0.5);
   }

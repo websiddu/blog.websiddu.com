@@ -1,5 +1,5 @@
 $em-base: 13px;
-$primary-color: $blue !default;
+$primary-color: $primary !default;
 $text-direction: ltr;
 
 @function strip-unit($num) {
@@ -54,10 +54,16 @@ $subheader-bottom-margin: .5em !default;
 $small-font-size: 60% !default;
 $small-font-color: lighten($header-font-color, 30%) !default;
 
+// font-size: 1.25rem;
+//     line-height: 1.55;
+//     color: #A9ABAD;
+//     font-weight: 400;
+//     margin-bottom: 1rem;
+
 // We use these to style paragraphs
 $paragraph-font-family: inherit !default;
 $paragraph-font-weight: 400 !default;
-$paragraph-font-size: 1.22rem !default;
+$paragraph-font-size: 1.25rem !default;
 $paragraph-line-height: 1.55 !default;
 $paragraph-margin-bottom: em-calc(20) !default;
 $paragraph-aside-font-size: em-calc(14) !default;

@@ -34,18 +34,18 @@ $site-footer-border-color: rgba(0, 0, 0, 0.1);
 
 .container {
   section {
-    padding: 0 3vw;
+    padding: 0 4vw;
     margin: 0 auto;
-    max-width: 750px;
+    max-width: 800px;
   }
 
   .posts {
     margin: 7rem 0;
     section {
-      margin-bottom: 3rem;
+      margin-bottom: 8vh;
     }
     h2 {
-      font-size: 1.65rem;
+      font-size: 1.5rem;
       font-weight: 400;
     }
     p {
@@ -54,12 +54,17 @@ $site-footer-border-color: rgba(0, 0, 0, 0.1);
   }
 }
 
+.pagination {
+  font-size: 1.22rem;
+  margin-top: -5vh;
+}
+
 .site-footer {
   min-height: 120px;
   background: $site-footer-background-color;
   margin-top: 4rem;
   border-top: solid 1px $site-footer-border-color;
-  padding: 2rem 0;
+  padding: 2rem 4vw;
   p {
     font-size: 1.1rem;
     margin: 0;
