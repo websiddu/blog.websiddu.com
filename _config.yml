@@ -40,7 +40,7 @@ inc:
 url:         http://0.0.0.0:4000
 source:      .
 destination: ./_site
-plugins_dir:     ./_plugins_dir
+plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 include:     ['.htaccess']
 incremental: true
