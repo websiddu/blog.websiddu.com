@@ -50,7 +50,7 @@ gulp.task('scripts', () => {
 });
 
 gulp.task('jekyll', function (){
-	const jekyll = spawn('jekyll', ['serve'], { stdio: 'inherit' });
+	const jekyll = spawn('bundle', ['exec','jekyll', 'serve', '--trace'], { stdio: 'inherit' });
 
 	jekyll.on('exit', function(code) {
 		if (code !== 0) {
@@ -62,7 +62,7 @@ gulp.task('jekyll', function (){
 let reloadTimeout = null;
 let start = new Date().getTime();
 
-gulp.task('serve', ['jekyll', 'styles', 'scripts'], () => {
+gulp.task('serve', [ 'styles', 'scripts', 'jekyll'], () => {
 	browserSync({
 		notify: false,
 		port: 9000,
@@ -78,16 +78,12 @@ gulp.task('serve', ['jekyll', 'styles', 'scripts'], () => {
 		'_site/public/js/**/*'
 	]).on('change', function(e) {
     clearTimeout(reloadTimeout);
-    // console.log('-',  new Date().getTime() - start, '-' ,e.path.replace('/Users/stanko/Projects/stanko.github.io/_site/', ''))
-
-    // As jekyll rebuilds a lot of HTML pages
-    // I added a small timeout, not to trigger multiple page reloads
     reloadTimeout = setTimeout(function () {
 		  reload({ once: true });
     }, 50);
 	});
 
-	gulp.watch('_assets/stylesheets/**/*.scss', ['styles']);
+	gulp.watch(['_assets/stylesheets/**/*.scss', 'styleguide.websiddu.com/_assets/stylesheets/**/*.scss'], ['styles']);
 	gulp.watch('_assets/javascripts/**/*.js', ['scripts']);
 	// gulp.watch('app/fonts/**/*', ['fonts']);
 });

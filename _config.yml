@@ -112,6 +112,7 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/images
+    - styleguide.websiddu.com/_assets/stylesheets
   js_compressor: uglifier
   css_compressor: sass
   cachebust: none
