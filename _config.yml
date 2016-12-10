@@ -29,6 +29,7 @@ inc:
  # Analytics
   analytics:
     google: true # Add tracking code in _includes/_google-analytics.html
+    tracking_id: UA-55363605-4
 
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
