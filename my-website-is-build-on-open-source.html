@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website is build on open-source &mdash; Siddhartha Gudipati</title>
+    <link href="https://fonts.googleapis.com/css?family=Puritan:400,700|Roboto+Mono:300,400,500|Mandali" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/logo.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Siddhartha Gudipati" />
+    <meta name="title" content="My website is build on open-source ">
+    <link rel="canonical" href="http://0.0.0.0:4000/my-website-is-build-on-open-source.html">
+    
+    
+    <meta property="og:title" content="My website is build on open-source "/>
+    <meta property="og:url" content="http://0.0.0.0:4000/my-website-is-build-on-open-source.html"/>
+    
+    
+    <meta property="og:description" content="Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is a little tedious task if I want to do this even if I misspelt some thing in the content. This time I wanted to build a dynamic portfolio site, in other words fetch data from a database. I started thinking, what are different ways that I can do this, first option was to use a CMS like Wordpress,..."/>
+    <meta name="description" content="Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is a little tedious task if I want to do this even if I misspelt some thing in the content. This time I wanted to build a dynamic portfolio site, in other words fetch data from a database. I started thinking, what are different ways that I can do this, first option was to use a CMS like Wordpress,..."/>
+    
+    <meta property="og:site_name" content="Siddhartha Gudipati">
+</head>
+    <body>
+        <div class="site">
+            <section class="site-nav">
+    <header>
+        <nav class="nav">
+            <div class="nav-left">
+                <a class="nav-item is-brand" href="http://websiddu.com"><img src="/images/logo.svg"></a>
+                <span class="nav-item is-direction">&rarr;</span>
+                <a href="/" class="nav-item is-sub-brand is-tab"> <img src="/images/blog.svg"></a>
+            </div>
+
+
+            <span class="nav-toggle">
+                <span></span>
+            <span></span>
+            <span></span>
+            </span>
+
+            <div class="nav-right nav-menu">
+                <a class="nav-item " href="http://websiddu.com">
+    Portfolio
+</a>
+<a class="nav-item " href="http://blog.websiddu.com">
+    Blog
+</a>
+<a class="nav-item " href="http://photos.websiddu.com">
+    Photos
+</a>
+<a class="nav-item " href="http://cook.websiddu.com">
+    Cook
+</a>
+<a class="nav-item " href="http://about.websiddu.com">
+    About
+</a>
+
+            </div>
+        </nav>
+    </header>
+</section>
+
+            <article class="lang-">
+    <div class="container">
+        <section role="article">
+            <h2 class="post-title" role="title">My website is build on open-source</h2>
+            <div class="post-meta" role="meta">
+                <time>May 25, 2014</time> &mdash;
+                <span> 2  minutes read</span>
+            </div>
+            <main class="post-content">
+                
+                <div class="post-cover">
+                    <img src="images/covers/website.jpg" alt="My website is build on open-source">
+                </div>
+                
+                <p>Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is a little tedious task if I want to do this even if I  misspelt some thing in the content.</p>
+
+<p>This time I wanted to build a dynamic portfolio site, in other words fetch data from a database. I started thinking, what are different ways that I can do this, first option was to use a CMS like Wordpress, Drupal or Joomla which are not ideal for my simple portfolio website. The next idea is to build my own application with stores data and fetches data for me.</p>
+
+<p>As my website is very small and the traffic will be minimum. I decides to use all free services to build my portfolio website. After few iterations, I came up with my technology stack. Its ruby on rails and angularjs. Which looks like some thing below.</p>
+
+<p>I want to use as many as technologies and services that I can for this small website. So, Let’’s get started to know more.</p>
+
+<h3 id="server">Server</h3>
+
+<p>I used Ruby on Rails to fetch data from the database. This ruby on rails application is hosted on heroku http://websiddu.herokuapp.com. As you can see its a pretty simple interface with enables me to add/edit/delete/get data. Its controlled by a simple authorization plugin using device gem. So only I’‘ve the access. ;)</p>
+
+<p>And this has API end points to get the data so that I can uses the data with more flexibilty. Here is an example of the API endpoint</p>
+
+<p>http://websiddu.herokuapp.com/api/projects</p>
+
+<p><strong>Keywords</strong></p>
+
+<ul>
+  <li>Ruby on Rails</li>
+  <li>SASS, Foundation</li>
+  <li>Device</li>
+  <li>Heroku</li>
+</ul>
+
+<h3 id="database">Database</h3>
+
+<p>I wanted to use a no-sql database for my application as I am not going do any complex relations  queries between tables. I chose mongodb with is very quick and easy. And, <a href="https://mongolab.com/" target="blank">Mongo lab</a> gives a 500MB database for free. So, I got my DB ready.</p>
+
+<p><strong>Keywords</strong></p>
+
+<ul>
+  <li>MongoDB</li>
+  <li>Mongo lab</li>
+  <li>Mongoid gem</li>
+  <li>Nosql</li>
+</ul>
+
+<h3 id="front-end">Front-end</h3>
+
+<p>Now I designed the static application using the API. This front-end part is built on Angular.js, SASS and Foundation and deployed on github.</p>
+
+<p>http://websiddu.github.io/websiddu/#/</p>
+
+<p><strong>Keywords</strong></p>
+
+<ul>
+  <li>Angular.js</li>
+  <li>SASS</li>
+  <li>Fondation</li>
+  <li>Yeoman</li>
+  <li>Grunt</li>
+  <li>Bower</li>
+</ul>
+
+<h3 id="assets">Assets</h3>
+
+<p>All the images, screen shots and sources are hosted on google app engine again a free service. First I tried using dropbox, but it truned out that I cannot control the caching time for those files. I wrote a blogpost a while ago how to use google app engine as your static assets server or CDN. Check tihs out  http://blog.websiddu.com/2014/01/15/use-google-app-engine-as-cdn/</p>
+
+<p><strong>Keywords</strong></p>
+
+<ul>
+  <li>Google app engine</li>
+</ul>
+
+<p>To conclude, in simple this is how I used the open-source to build my portfolio website. If you have any question feel free to leave a comment below. I am ready to answer all your question.</p>
+
+            </main>
+        </section>
+        
+        <section>
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'websiddu'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+        </section>
+        
+    </div>
+</article>
+
+
+            <footer class="site-footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-5">
+                <div class="level-item">
+                    <p style="">
+                        Hey 👋🏽, my name is Siddhartha, I'm a Designer at Google living in the bayarea. I enjoy cooking, photography, coding &amp; more. Follow me <a href="http://twitter.com/websiddu" target="_blank">@websiddu</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="column is-3"></div>
+            <div class="column is-4">
+                <div class="level-item">
+                    <div class="nav-right nav-menu">
+                        <a class="nav-item " href="http://websiddu.com">
+    Portfolio
+</a>
+<a class="nav-item " href="http://blog.websiddu.com">
+    Blog
+</a>
+<a class="nav-item " href="http://photos.websiddu.com">
+    Photos
+</a>
+<a class="nav-item " href="http://cook.websiddu.com">
+    Cook
+</a>
+<a class="nav-item " href="http://about.websiddu.com">
+    About
+</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script src="/assets/main.js"></script>
+
+
+
+
+
+  <!--google analytics tracking code here-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55363605-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+    </body>
+</html>

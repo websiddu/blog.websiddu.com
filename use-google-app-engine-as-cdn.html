@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use google app engine as CDN &mdash; Siddhartha Gudipati</title>
+    <link href="https://fonts.googleapis.com/css?family=Puritan:400,700|Roboto+Mono:300,400,500|Mandali" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/logo.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Siddhartha Gudipati" />
+    <meta name="title" content="Use google app engine as CDN ">
+    <link rel="canonical" href="http://0.0.0.0:4000/use-google-app-engine-as-cdn.html">
+    
+    
+    <meta property="og:title" content="Use google app engine as CDN "/>
+    <meta property="og:url" content="http://0.0.0.0:4000/use-google-app-engine-as-cdn.html"/>
+    
+    
+    <meta property="og:description" content="To begin with, for people who are not familiar with CDN **What is CDN ?** (Wikipedia definition) A content delivery network or content distribution network (CDN) is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with high availability and high performance. CDNs serve a large fraction of the Internet content today, including web objects (text, graphics and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), live streaming media, on-demand streaming media, and social networks. > There are many ways to serve..."/>
+    <meta name="description" content="To begin with, for people who are not familiar with CDN What is CDN ? (Wikipedia definition) A content delivery network or content distribution network (CDN) is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with high availability and high performance. CDNs serve a large fraction of the Internet content today, including web objects (text, graphics and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), live streaming media, on-demand streaming media, and social networks. There are many ways to serve static..."/>
+    
+    <meta property="og:site_name" content="Siddhartha Gudipati">
+</head>
+    <body>
+        <div class="site">
+            <section class="site-nav">
+    <header>
+        <nav class="nav">
+            <div class="nav-left">
+                <a class="nav-item is-brand" href="http://websiddu.com"><img src="/images/logo.svg"></a>
+                <span class="nav-item is-direction">&rarr;</span>
+                <a href="/" class="nav-item is-sub-brand is-tab"> <img src="/images/blog.svg"></a>
+            </div>
+
+
+            <span class="nav-toggle">
+                <span></span>
+            <span></span>
+            <span></span>
+            </span>
+
+            <div class="nav-right nav-menu">
+                <a class="nav-item " href="http://websiddu.com">
+    Portfolio
+</a>
+<a class="nav-item " href="http://blog.websiddu.com">
+    Blog
+</a>
+<a class="nav-item " href="http://photos.websiddu.com">
+    Photos
+</a>
+<a class="nav-item " href="http://cook.websiddu.com">
+    Cook
+</a>
+<a class="nav-item " href="http://about.websiddu.com">
+    About
+</a>
+
+            </div>
+        </nav>
+    </header>
+</section>
+
+            <article class="lang-">
+    <div class="container">
+        <section role="article">
+            <h2 class="post-title" role="title">Use google app engine as CDN</h2>
+            <div class="post-meta" role="meta">
+                <time>February 08, 2014</time> &mdash;
+                <span> 3  minutes read</span>
+            </div>
+            <main class="post-content">
+                
+                <p>To begin with, for people who are not familiar with CDN</p>
+
+<p><strong>What is CDN ?</strong>
+<small>(Wikipedia definition)</small>
+A content delivery network or content distribution network (CDN) is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with high availability and high performance. CDNs serve a large fraction of the Internet content today, including web objects (text, graphics and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), live streaming media, on-demand streaming media, and social networks.</p>
+
+<blockquote>
+  <p>There are many ways to serve static assets for your awesome cool website. You can buy a CDN, host it on a costly hosting service, use github pages or just use google app engine and take advantage of the cloud storage.</p>
+</blockquote>
+
+<h4 id="create-you-first-google-app-engine-project">Create you first Google app engine project</h4>
+
+<ol>
+  <li>
+    <p>Since google appengine works on <code>python</code>, <code>java</code>,  <code>PHP</code> <small>(Expiremantal)</small> and <code>go</code> <small>(Expiremantal)</small> programming language, make sure that any one of those works on you machine. <img src="https://lh6.googleusercontent.com/-G1X916LClws/UvXaIyN9QOI/AAAAAAAABGs/7IFIuMCFXE0/s0-I/languages.png" alt="Languages supported by google appengine" /></p>
+  </li>
+  <li>
+    <p>Download the Google App Engine SDK from the following URL that suits your Operating system <a href="https://developers.google.com/appengine/downloads" target="_blank">https://developers.google.com/appengine/downloads</a> <img src="https://lh6.googleusercontent.com/-iqpoeVE7p7M/UvXbsk2e4UI/AAAAAAAABHE/1cJt1JxwhFU/s0-I/download.png" alt="Download google appengine SDK for Python" /> After downloading install app engine sdk on you machine.</p>
+  </li>
+  <li>
+    <p>Sign up for Google App Engine at https://appengine.google.com. For this you need a Google account (your GMail address for example, if you dont have one it is free to create one)</p>
+  </li>
+  <li>
+    <p>Create a new app engine application by clicking on the <code>Create new Applicaiton</code> button on the landing screen. <img src="https://lh5.googleusercontent.com/-mymKEagqm0w/UvXekLprU0I/AAAAAAAABH0/PCZAEZOtTmg/s0-I/create_a_new_project.png" alt="Create a new app engine applicaiton" /></p>
+  </li>
+  <li>
+    <p>Create a static html project, you can use the <a href="http://html5boilerplate.com/">html5 boilerplate</a> or any other front-end seed project that you like. In my case I created the folders and files maually. Add a file and  name it as <code>app.yaml</code>, now this make your app-engine project complete. <img src="https://lh6.googleusercontent.com/-8yVMdxgVIdc/UvYfY8e0oYI/AAAAAAAABIU/3559qkAfR2s/s0-I/file_structure.png" alt="File stricture of the application" /></p>
+  </li>
+  <li>
+    <p>Open up the project in your favorite editor and copy paste pastes the following snipped. <img src="https://lh3.googleusercontent.com/-dkcO7Wmyehk/UvYhZcffgYI/AAAAAAAABI0/8X5xb1fo_8E/s0-I/app_yaml_file.png" alt="Your app.yaml file" /></p>
+  </li>
+  <li>
+    <p>Now upload image files to images folder and any other resources to files folder. You can create any number of folder and make sure you mention that folder path as a <code>static_dir</code> in app.yaml file.</p>
+  </li>
+  <li>
+    <p>Once you completed copying all the static file, now we need to deploy to the google cloud. The easiest way is to use the <code>GoogleAppEngineLauncher</code> which will be come with the SDK. Add a project to the launcher by clicking on the <code>+</code> button. Alternatly you can just drag and drop the project folder on to the Launcher. <img src="https://lh5.googleusercontent.com/-kb835wXntiU/UvYjUldkUxI/AAAAAAAABJI/-38NpPK9YvE/s0-I/Launcher.png" alt="GoogleAppEngineLauncher" /></p>
+  </li>
+  <li>
+    <p>Select a project and click on run to test your project locally. If you feel everything works fine click on the <code>Deploy</code> button to deploy the application. Give your Google account user name and password and sign in.  <img src="https://lh3.googleusercontent.com/-NyZjW-GEdB0/UvYj-M3o5NI/AAAAAAAABJc/IjoD9noKv2E/s0-I/Deploy.png" alt="Prompt for user name and password" /> or you can fire up the terminal and cd to the project directory and use this command <code>appcfg.py update .</code></p>
+  </li>
+  <li>
+    <p>Once the deployment is successful you can access your static files like this http:// &lt; app name &gt;.appspot.com/images/brand.png</p>
+  </li>
+</ol>
+
+<p>Though, Google Appengine is awesome there are some limitations for the free accounts</p>
+
+<h4 id="limitations">Limitations</h4>
+
+<ul>
+  <li>Google App Engine does not support any data structure that is larger than 1MB in size.</li>
+  <li>Quota limitations. <a href="https://developers.google.com/appengine/docs/quotas?csw=1" target="_blank">more details in documentation</a></li>
+</ul>
+
+<h4 id="further-reading">Further reading</h4>
+
+<ul>
+  <li>Aral Balkan wrote a post discussing these defects of app engine — <a href="http://aralbalkan.com/1504/" target="_blank">http://aralbalkan.com/1504/</a></li>
+  <li>Nice article on how to use Google app engine as your own CDN — <a href="http://24ways.org/2008/using-google-app-engine-as-your-own-cdn/" target="_blank">http://24ways.org/2008/using-google-app-engine-as-your-own-cdn/</a></li>
+</ul>
+
+            </main>
+        </section>
+        
+        <section>
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'websiddu'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+        </section>
+        
+    </div>
+</article>
+
+
+            <footer class="site-footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-5">
+                <div class="level-item">
+                    <p style="">
+                        Hey 👋🏽, my name is Siddhartha, I'm a Designer at Google living in the bayarea. I enjoy cooking, photography, coding &amp; more. Follow me <a href="http://twitter.com/websiddu" target="_blank">@websiddu</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="column is-3"></div>
+            <div class="column is-4">
+                <div class="level-item">
+                    <div class="nav-right nav-menu">
+                        <a class="nav-item " href="http://websiddu.com">
+    Portfolio
+</a>
+<a class="nav-item " href="http://blog.websiddu.com">
+    Blog
+</a>
+<a class="nav-item " href="http://photos.websiddu.com">
+    Photos
+</a>
+<a class="nav-item " href="http://cook.websiddu.com">
+    Cook
+</a>
+<a class="nav-item " href="http://about.websiddu.com">
+    About
+</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script src="/assets/main.js"></script>
+
+
+
+
+
+  <!--google analytics tracking code here-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55363605-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesomeness of emmet &mdash; Siddhartha Gudipati</title>
+    <link href="https://fonts.googleapis.com/css?family=Puritan:400,700|Roboto+Mono:300,400,500|Mandali" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/logo.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Siddhartha Gudipati" />
+    <meta name="title" content="Awesomeness of emmet ">
+    <link rel="canonical" href="http://0.0.0.0:4000/awesome-emmet.html">
+    
+    
+    <meta property="og:title" content="Awesomeness of emmet "/>
+    <meta property="og:url" content="http://0.0.0.0:4000/awesome-emmet.html"/>
+    
+    
+    <meta property="og:description" content="#### What is emmet? Emmet is a collection of abbreviations that expand into html/xml/css, taking the idea of text snippets further. When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the `TAB` key. > Emmet (previously known as Zen Coding) is a web-developer's toolkit that can greatly improve your HTML & CSS workflow. There are some really cool features in emmet that we don't use frequently. I want to share some rarely used but very useful emmet features. Lets get started. #### Merge Lines It merges selected lines into..."/>
+    <meta name="description" content="What is emmet? Emmet is a collection of abbreviations that expand into html/xml/css, taking the idea of text snippets further. When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the TAB key. Emmet (previously known as Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML &amp; CSS workflow. There are some really cool features in emmet that we don’t use frequently. I want to share some rarely used but very useful emmet features. Lets get started. Merge Lines It merges selected lines into a single one...."/>
+    
+    <meta property="og:site_name" content="Siddhartha Gudipati">
+</head>
+    <body>
+        <div class="site">
+            <section class="site-nav">
+    <header>
+        <nav class="nav">
+            <div class="nav-left">
+                <a class="nav-item is-brand" href="http://websiddu.com"><img src="/images/logo.svg"></a>
+                <span class="nav-item is-direction">&rarr;</span>
+                <a href="/" class="nav-item is-sub-brand is-tab"> <img src="/images/blog.svg"></a>
+            </div>
+
+
+            <span class="nav-toggle">
+                <span></span>
+            <span></span>
+            <span></span>
+            </span>
+
+            <div class="nav-right nav-menu">
+                <a class="nav-item " href="http://websiddu.com">
+    Portfolio
+</a>
+<a class="nav-item " href="http://blog.websiddu.com">
+    Blog
+</a>
+<a class="nav-item " href="http://photos.websiddu.com">
+    Photos
+</a>
+<a class="nav-item " href="http://cook.websiddu.com">
+    Cook
+</a>
+<a class="nav-item " href="http://about.websiddu.com">
+    About
+</a>
+
+            </div>
+        </nav>
+    </header>
+</section>
+
+            <article class="lang-">
+    <div class="container">
+        <section role="article">
+            <h2 class="post-title" role="title">Awesomeness of emmet</h2>
+            <div class="post-meta" role="meta">
+                <time>January 31, 2014</time> &mdash;
+                <span> 2  minutes read</span>
+            </div>
+            <main class="post-content">
+                
+                <h4 id="what-is-emmet">What is emmet?</h4>
+<p>Emmet is a collection of abbreviations that expand into html/xml/css, taking the idea of text snippets further.</p>
+
+<p>When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the <code>TAB</code> key.</p>
+
+<blockquote>
+  <p>Emmet (previously known as Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML &amp; CSS workflow.</p>
+</blockquote>
+
+<p>There are some really cool features in emmet that we don’t use frequently. I want to share some rarely used but very useful emmet features. Lets get started.</p>
+
+<h4 id="merge-lines">Merge Lines</h4>
+<p>It merges selected lines into a single one. But when there’s no selection, Emmet will match context HTML tag.</p>
+
+<p>Unfortunately there is no key board shot cut enable by default in the emmet sublime text plugin. So, Lets create on our own. Open up the Preferences → Package settings → Emmet → Key Bindings - User and put the following code in that file and save it.</p>
+
+<p><code>prettyprint JSON
+[
+  {
+    "keys": [
+      "shift+super+m"
+    ],
+    "args": {
+      "action": "merge_lines"
+    },
+    "command": "run_emmet_action"
+  }
+]
+</code></p>
+
+<p>Now you can use the short cut <code>Shift</code>+ <code>Command</code>+ <code>m</code> to merge multiple lines in between a tag.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-YTQ4NzZ9BUQ/Uuv8TS0PyHI/AAAAAAAABDU/SYNzmoBOLE4/s0-I/merge_lines.gif" alt="Merge Lines with emmet" /></p>
+
+<h4 id="update-image-size">Update image size</h4>
+<p>Its always a good practice to mention the height and width of the image in the <code>img</code> tag, However 90% of web developers ignore specifying the height and width attributes. For those this snippet is very useful.</p>
+
+<p>This action helps you to automate this process: simply place caret inside <img /> tag and run this action to add/update width and height attributes.</p>
+
+<p>In CSS, place caret inside property value with url() function to add/update width and height properties for current rule.</p>
+
+<p>You just need to press <code>shift</code> + <code>Ctrl</code> + <code>i</code></p>
+
+<p>Note that this action also works for absolute URLs: it will start searching for requested file from host file’s folder and then will traverse up the tree.</p>
+
+<p><img src="https://lh3.googleusercontent.com/-OcqZc60ylAI/Uuv8TYR-d5I/AAAAAAAABDY/KThsTDtvCyE/s0-I/image_dimentions.gif" alt="Update dimentisions" /></p>
+
+<h4 id="evaluate-math-expression">Evaluate Math Expression</h4>
+
+<p>How much time you have spend adding up pixes, subtracting padding in the calculator application! Now  you can evaluate math expression with in the code editor.</p>
+
+<p>Evaluates simple math expression like 13*7 or 14/5 and outputs its result. You can use \ operator which is equivalent to <code>round(a/b)</code>.</p>
+
+<p>This is very useful in CSS where numeric values should be modified frequently.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-1hPHEa0qCbU/Uuxjdm7ViOI/AAAAAAAABD8/PE4Zgv8dlZk/s0-I/evaluate_expressions.gif" alt="Evaluate Expressions" /></p>
+
+<h4 id="incrementdecrement-number">Increment/Decrement Number</h4>
+
+<p>This action, as name says, increments or decrements number under caret with different steps: 0.1, 1 or 10.</p>
+
+<p>Shortcuts in sublime text 3 for increment</p>
+
+<ul>
+  <li><code>Ctrl</code> + <code>Up</code> — increments by 1 point</li>
+  <li><code>Alt</code> + <code>Up</code> — increments by 0.1 point</li>
+  <li><code>Alt</code> + <code>Command</code> + <code>UP</code> — increments by 10 point</li>
+</ul>
+
+<p>Shortcuts in sublime text 3 for decrements</p>
+
+<ul>
+  <li><code>Ctrl</code> + <code>Up</code> — decrements by 1 point</li>
+  <li><code>Alt</code> + <code>Up</code> — decrements by 0.1 point</li>
+  <li><code>Alt</code> + <code>Command</code> + <code>UP</code> — decrements by 10 point</li>
+</ul>
+
+<p><img src="https://lh5.googleusercontent.com/-7Vf4A9rSYrU/Uux5O2Z9__I/AAAAAAAABEc/9tNeo2MDh38/s0-I/increment_counter.gif" alt="Increment/Decrement Number" /></p>
+
+<p>To conclude emmet is awesome start using it now!</p>
+
+<h5 id="other-useful-links">Other useful links</h5>
+
+<ul>
+  <li><a href="http://docs.emmet.io/">Emmet documentation</a></li>
+  <li><a href="http://docs.emmet.io/cheat-sheet/">Emmet cheat sheet</a></li>
+  <li><a href="http://coding.smashingmagazine.com/2013/03/26/goodbye-zen-coding-hello-emmet">Smashing magazine</a></li>
+</ul>
+
+            </main>
+        </section>
+        
+        <section>
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'websiddu'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+        </section>
+        
+    </div>
+</article>
+
+
+            <footer class="site-footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-5">
+                <div class="level-item">
+                    <p style="">
+                        Hey 👋🏽, my name is Siddhartha, I'm a Designer at Google living in the bayarea. I enjoy cooking, photography, coding &amp; more. Follow me <a href="http://twitter.com/websiddu" target="_blank">@websiddu</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="column is-3"></div>
+            <div class="column is-4">
+                <div class="level-item">
+                    <div class="nav-right nav-menu">
+                        <a class="nav-item " href="http://websiddu.com">
+    Portfolio
+</a>
+<a class="nav-item " href="http://blog.websiddu.com">
+    Blog
+</a>
+<a class="nav-item " href="http://photos.websiddu.com">
+    Photos
+</a>
+<a class="nav-item " href="http://cook.websiddu.com">
+    Cook
+</a>
+<a class="nav-item " href="http://about.websiddu.com">
+    About
+</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script src="/assets/main.js"></script>
+
+
+
+
+
+  <!--google analytics tracking code here-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55363605-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+    </body>
+</html>
