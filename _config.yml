@@ -53,6 +53,8 @@ exclude: ["vendor",
           "gulpfile.js",
           "gulpfile.babel.js",
           ".sass-cache",
+          '.gitmodules',
+          'styleguie.websiddu.com',
           "_js",
           "node_modules",
           "package.json"]
