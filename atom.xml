@@ -4,7 +4,7 @@
  <title></title>
  <link href="http://0.0.0.0:4000//atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000//"/>
- <updated>2016-12-11T03:15:43+00:00</updated>
+ <updated>2016-12-11T03:19:06+00:00</updated>
  <id>http://0.0.0.0:4000</id>
  <author>
    <name></name>
@@ -15,7 +15,7 @@
  <entry>
    <title>నా సంతకం తెలుగు లో మరి మీది?</title>
    <link href="http://0.0.0.0:4000/%E0%B0%A8%E0%B0%BE-%E0%B0%B8%E0%B0%82%E0%B0%A4%E0%B0%95%E0%B0%82-%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%97%E0%B1%81-%E0%B0%B2%E0%B1%8B-%E0%B0%AE%E0%B0%B0%E0%B0%BF-%E0%B0%AE%E0%B1%80%E0%B0%A6%E0%B0%BF.html"/>
-   <updated>2016-12-11T03:14:08+00:00</updated>
+   <updated>2016-12-11T01:48:19+00:00</updated>
    <id>http://0.0.0.0:4000//నా-సంతకం-తెలుగు-లో-మరి-మీది</id>
    <content type="html">&lt;p&gt;దేశ భాష లందు తెలుగు లెస్స అని శ్రీ కృష్ణ దేవరాయలు అన్నట్టు మన తెలుగు భాష  నిజంగా నే వినసొంపైన భాష. ఈ ఆధునిక యుగం లో మన తేనె లొలుకు తెలుగు భాషా కి ప్రచుర్యం తగ్గుపోతుంటే, చూస్తూ ఉండటం తప్ప నేను ఏమి చేయగలను? ప్రతి రోజు పెరుగుతున్న సాంకేతిక పరిజ్ఞానం వల్ల మన ఈ తరం పిల్లలు స్వచమైన తెలుగు మాట్లాడటం, చదవటం మరియు  వ్రాయటం పూర్తిగా మర్చిపోతారు ఏమో? ఈ కాలం చదువులు అలా ఉన్నయి మరి. ప్రతి ఒక్కరు ఆంగ్ల మాధ్యమం లో చదువుతూ మాతృ భాష ని ద్వితీయా భాష గా లేదా త్రితీయ భాష గా చూస్తున్నారు. నా అదృష్టం కొద్దీ నేనే నా ఉన్నత పాఠశాల తెలుగు మాధ్యమం లో చదువుకున్నాను. ఈ కారణం గా నాకు తెలుగు మాట్లాడటం, చదవటం మరియు  వ్రాయటం బాగానే వచ్చు. నేను ఇప్పుడు అమెరికా లో ఉంటున్నా తెలుగు ఫై అభిమానం మాత్రం తగ్గలేదు. చాలా రోజులు నుంచి ఈ వ్యాసం రాధాం  అనుకుంటున్నా కానీ ఇప్పటికి కుదరియింది.&lt;/p&gt;
 
@@ -30,7 +30,7 @@
  <entry>
    <title>Building a design portfolio website</title>
    <link href="http://0.0.0.0:4000/building-your-design-portfolio.html"/>
-   <updated>2016-12-11T03:14:08+00:00</updated>
+   <updated>2016-12-11T01:48:19+00:00</updated>
    <id>http://0.0.0.0:4000//building-your-design-portfolio</id>
    <content type="html">&lt;p&gt;Building a design portfolio website can be a daunting task especially when you are just starting with your design career or you are design student with no coding skills. I have heard many question from my classmates asking where do I start. In this post I will try to explain how to build a portfolio website end to end. I will try to cover most of the topics in detail. I divided this post into different parts, in the first part I will explain the purpose of the design portfolio website, in the second part I will give some ideas to design the layout of your website, in the third part we will see different options for building the website and finally different options to deploy your website.&lt;/p&gt;
 
@@ -188,41 +188,41 @@
 &lt;h3 id=&quot;the-basics&quot;&gt;The Basics&lt;/h3&gt;
 &lt;p&gt;Visually disabled people use something called &lt;strong&gt;screen readers&lt;/strong&gt; to access the web content. Screen readers are special softwares that will read the content on the screen to them and give some additional powerful shortcuts to help them navigate. There are multiple screen reader softwares available in the market. The most popular ones are JAWS for Windows, NVIDIA for Windows, and Voiceover for Mac iOS. As a Mac user, I used Voice Over(Command + F5 to activate) to work on my website accessibility.&lt;/p&gt;
 
-&lt;p&gt;To begin with, I was well aware of adding &lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt; attributes to the images and titles to the hyperlinks. These alt tags were super helpful for screen reader users since they could describe what the image was. Therefore, I went through all my web pages and added alt tags and titles to the images.&lt;/p&gt;
+&lt;p&gt;To begin with, I was well aware of adding &lt;code&gt;alt&lt;/code&gt; attributes to the images and titles to the hyperlinks. These alt tags were super helpful for screen reader users since they could describe what the image was. Therefore, I went through all my web pages and added alt tags and titles to the images.&lt;/p&gt;
 
 &lt;p&gt;I saw many portfolios that had images with text but leaving no clue for the screen readers on what the image was. This made me little disappointed because I believed that designers should really care about the things they designed that were able to access to everyone.&lt;/p&gt;
 
 &lt;h3 id=&quot;navigation--lists&quot;&gt;Navigation &amp;amp; Lists&lt;/h3&gt;
-&lt;p&gt;Navigation places an important role when it comes to keyboard users. Make sure that your navigation uses the semantic markup like &lt;code class=&quot;highlighter-rouge&quot;&gt;nav&lt;/code&gt; tags and &lt;code class=&quot;highlighter-rouge&quot;&gt;role=navigation&lt;/code&gt; so that screen readers will detect these areas and enable users to jump from one section to the others.&lt;/p&gt;
+&lt;p&gt;Navigation places an important role when it comes to keyboard users. Make sure that your navigation uses the semantic markup like &lt;code&gt;nav&lt;/code&gt; tags and &lt;code&gt;role=navigation&lt;/code&gt; so that screen readers will detect these areas and enable users to jump from one section to the others.&lt;/p&gt;
 
-&lt;p&gt;Lists can be very effective when being used in a proper manner. Make sure that you use &lt;code class=&quot;highlighter-rouge&quot;&gt;ul&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; tags in proper places such as when there is a list of projects or list of tags.&lt;/p&gt;
+&lt;p&gt;Lists can be very effective when being used in a proper manner. Make sure that you use &lt;code&gt;ul&lt;/code&gt; and &lt;code&gt;li&lt;/code&gt; tags in proper places such as when there is a list of projects or list of tags.&lt;/p&gt;
 
 &lt;h3 id=&quot;font-icons&quot;&gt;Font-icons&lt;/h3&gt;
-&lt;p&gt;Using font icons will block Mac Voice Over. It will stop reading once it finds a font icon. Make sure that your font icon uses  &lt;code class=&quot;highlighter-rouge&quot;&gt;aria-hidden=true&lt;/code&gt; and add a description of the icon with &lt;code class=&quot;highlighter-rouge&quot;&gt;sr-only&lt;/code&gt; class. Check the below example&lt;/p&gt;
+&lt;p&gt;Using font icons will block Mac Voice Over. It will stop reading once it finds a font icon. Make sure that your font icon uses  &lt;code&gt;aria-hidden=true&lt;/code&gt; and add a description of the icon with &lt;code&gt;sr-only&lt;/code&gt; class. Check the below example&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon icon-close&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sr-only&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; Click here to close &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;icon icon-close&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;sr-only&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; Click here to close &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;angular-js--spas&quot;&gt;Angular JS &amp;amp; SPA’s&lt;/h3&gt;
 
-&lt;p&gt;Another challenge is accessibility for single page application. As there is no page refresh in the navigation of single page applications, the screen readers will not detect the page change. I have to inform the page change manually using a &lt;code class=&quot;highlighter-rouge&quot;&gt;$.announce&lt;/code&gt;.  I also wrote a detailed blog post about implementing accessibility for single page applications.&lt;/p&gt;
+&lt;p&gt;Another challenge is accessibility for single page application. As there is no page refresh in the navigation of single page applications, the screen readers will not detect the page change. I have to inform the page change manually using a &lt;code&gt;$.announce&lt;/code&gt;.  I also wrote a detailed blog post about implementing accessibility for single page applications.&lt;/p&gt;
 
 &lt;h3 id=&quot;roles--regions&quot;&gt;Roles &amp;amp; Regions&lt;/h3&gt;
 &lt;p&gt;The roles, their characteristics, the states and properties they support, and specification of how they may be used in markup, should all be considered normative. In plain English, they tell you the type of the content you are at, which will be really helpful for screen reader users to identify the type of object and region and accordingly the user can take an action.&lt;/p&gt;
 
 &lt;p&gt;For example&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;menubar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
- &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Rule 2A: &quot;File&quot; label via aria-labelledby --&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;menuitem&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-haspopup=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-labelledby=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fileLabel&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fileLabel&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;File&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;menu&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Rule 2C: &quot;New&quot; label via Namefrom:contents --&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;menuitem&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;New&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;menuitem&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Open&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;menubar&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Rule 2A: &amp;quot;File&amp;quot; label via aria-labelledby --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;menuitem&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-haspopup=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-labelledby=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;fileLabel&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;fileLabel&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;File&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;menu&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Rule 2C: &amp;quot;New&amp;quot; label via Namefrom:contents --&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;menuitem&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;New&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;menuitem&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Open&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;color-contrast&quot;&gt;Color contrast&lt;/h3&gt;
 
@@ -289,7 +289,7 @@ or again request UWIT to install it, if you have a server that is managed by the
 &lt;p&gt;Here is my shibb configuration file
 &lt;script src=&quot;https://gist.github.com/websiddu/b45f9b2b941b8252bb62.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;Make sure you remember the EntitiyID in line number 10 that should match with your EnitityID in the IDP server. And also make sure that you give valid certificates &lt;code class=&quot;highlighter-rouge&quot;&gt;CredentialResolver&lt;/code&gt; at line number 59 and 60.&lt;/p&gt;
+&lt;p&gt;Make sure you remember the EntitiyID in line number 10 that should match with your EnitityID in the IDP server. And also make sure that you give valid certificates &lt;code&gt;CredentialResolver&lt;/code&gt; at line number 59 and 60.&lt;/p&gt;
 
 &lt;p&gt;You should be able to get the XML metadata
 https://green-certification.uw.edu/Shibboleth.sso/Metadata with proper values.&lt;/p&gt;
@@ -382,7 +382,7 @@ and goes on …&lt;/p&gt;
 &lt;h2 id=&quot;the-email&quot;&gt;The email&lt;/h2&gt;
 &lt;p&gt;I decided to write an email asking him what they were working on and how should I get ready. Here is the out line of the e-mail&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;Dear Dinesh,
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;Dear Dinesh,
 
 I am xyz. I am working in so and so.. I am interested in so and so..
 I did this in my B-tech.. these are some papers that I submitted at
@@ -392,7 +392,7 @@ I am wishing to join the labs some time in my career.
 How could I prepare for it and what are you guys working on currently.
 
 Thanks,
-Siddhartha&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+Siddhartha&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;And frankly, I was not expecting any reply from him. However after couple of days I got a reply from Dinesh mentioning the things they were working on and still remember it was a 3 line email with too many jargons (Which I didn’t understand at that time) and at the end it read “Hey we are recruiting, send me your resume if you are interested”. I read that email like 20 times, I swear! &lt;/p&gt;
 
@@ -471,7 +471,7 @@ Game of Thrones gifs are from &lt;a href=&quot;http://giphy.com/&quot; target=&q
 
 &lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-T_Z2tcnC8Y8/VCjSJsA4VvI/AAAAAAAABZc/ZlaROpEwsNQ/s0-U-I/3.png&quot; alt=&quot;Voronoi Diagram&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If we debug the code, we can actually see something called &lt;code class=&quot;highlighter-rouge&quot;&gt;class=â€œg-voronoiâ€&lt;/code&gt;.  After adding some css properties to the invisible areas, We can see the areas separated pretty clearly. And from then on its simple, when the mouse pointer is in that area highlight the vortex node and all its parents.&lt;/p&gt;
+&lt;p&gt;If we debug the code, we can actually see something called &lt;code&gt;class=â€œg-voronoiâ€&lt;/code&gt;.  After adding some css properties to the invisible areas, We can see the areas separated pretty clearly. And from then on its simple, when the mouse pointer is in that area highlight the vortex node and all its parents.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-2eOGwWgiBG8/VCjSJfmRWNI/AAAAAAAABZQ/n2F3WKAl44k/s0-U-I/2.png&quot; alt=&quot;Voronoi after highlighting&quot; /&gt;&lt;/p&gt;
 
@@ -599,34 +599,36 @@ http://www.jasondavies.com/maps/voronoi/&lt;/p&gt;
    <link href="http://0.0.0.0:4000/css-box-sizing-in-and-out.html"/>
    <updated>2014-05-01T00:00:00+00:00</updated>
    <id>http://0.0.0.0:4000//css-box-sizing-in-and-out</id>
-   <content type="html">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;box-sizing&lt;/code&gt; is a new CSS3 property that is handy in overwriting the default BOX model given by the browser.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;code&gt;box-sizing&lt;/code&gt; is a new CSS3 property that is handy in overwriting the default BOX model given by the browser.&lt;/p&gt;
 
-&lt;p&gt;Let’s start with how box model works. All the block-level element (like &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;header&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;section&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;footer&lt;/code&gt; etc…) in the html must follow the box model. And which looks like below. So, this box model used to calculate the heights and widths of block level elements.&lt;/p&gt;
+&lt;p&gt;Let’s start with how box model works. All the block-level element (like &lt;code&gt;div&lt;/code&gt;, &lt;code&gt;header&lt;/code&gt;, &lt;code&gt;section&lt;/code&gt;, &lt;code&gt;footer&lt;/code&gt; etc…) in the html must follow the box model. And which looks like below. So, this box model used to calculate the heights and widths of block level elements.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-aCwB7kur8l4/U2JjDzBTYDI/AAAAAAAABRc/SNaYAyUvc54/s0-U-I/box-model.png&quot; alt=&quot;Box model&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The width/height of an element gives the width/height of the content of the box, excluding padding and border. They are calculated like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Width = width + padding-left + padding-right + border-left + border-right
+&lt;p&gt;&lt;code&gt;
+Width = width + padding-left + padding-right + border-left + border-right
 Height = height + padding-top + padding-bottom + border-top + border-bottom
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Let’s see this with an example, for instance lets assume that we have div of class &lt;code class=&quot;highlighter-rouge&quot;&gt;box&lt;/code&gt; and it has some padding, margin and border.&lt;/p&gt;
+&lt;p&gt;Let’s see this with an example, for instance lets assume that we have div of class &lt;code&gt;box&lt;/code&gt; and it has some padding, margin and border.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-language-css&quot;&gt;.boxxy {
+&lt;p&gt;&lt;code&gt;language-css
+.boxxy {
   border: solid 5px purple;
     margin: 40px 20px;
     padding: 20px 30px;
     width: 400px;
     height: 100px;
 }
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-language-html&quot;&gt;
-&amp;lt;div class=&quot;boxxy&quot;&amp;gt;Namaskaram!!&amp;lt;/div&amp;gt;
+&lt;p&gt;```language-html&lt;/p&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;boxxy&quot;&gt;Namaskaram!!&lt;/div&gt;
+
+&lt;p&gt;```&lt;/p&gt;
 
 &lt;h4 id=&quot;result&quot;&gt;Result&lt;/h4&gt;
 &lt;style&gt;
@@ -643,25 +645,26 @@ Height = height + padding-top + padding-bottom + border-top + border-bottom
 
 &lt;p&gt;Now lets calculate the actual height/width of the boxxy on the screen.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Height = height + padding-top + padding-bottom + border-top + border-bottom + margin-top + margin-bottom
+&lt;p&gt;```
+Height = height + padding-top + padding-bottom + border-top + border-bottom + margin-top + margin-bottom
   = 100 + 20 + 20 + 5 + 5 + 40 + 40
-    = 330
+    = 330&lt;/p&gt;
 
-Width = width + padding-right + padding-left + border-right + border-left + margin-right + margin-left
+&lt;p&gt;Width = width + padding-right + padding-left + border-right + border-left + margin-right + margin-left
       = 400 + 30 + 30 + 5 + 5 + 20 + 20
       = 510
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+```&lt;/p&gt;
 
 &lt;p&gt;This is how it works in all the browsers, However IE8 and below will not take add the padding and border to the width. We can fix that using a html5 doc type.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-language-html&quot;&gt;&amp;lt;!doctype html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now, imagin if you ever want to overwrite this behavior for some reason, then our super hero of the day will help us do that. Let’s say we have a &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; with width 500px and a &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; inside that. By default the child div will occupy the 100% width, now say If you give some padding and border to the child div all over then you can see a weird behavior of the box that is padding and border cut into the box.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;language-html
+&amp;lt;!doctype html&amp;gt;
+&lt;/code&gt;
+Now, imagin if you ever want to overwrite this behavior for some reason, then our super hero of the day will help us do that. Let’s say we have a &lt;code&gt;div&lt;/code&gt; with width 500px and a &lt;code&gt;div&lt;/code&gt; inside that. By default the child div will occupy the 100% width, now say If you give some padding and border to the child div all over then you can see a weird behavior of the box that is padding and border cut into the box.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;http://jsfiddle.net/websiddu/FSVqS/embedded/result,html,css/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;You can see in the above example you cannot see the green background. To fix this one ugly solution will be giving &lt;code class=&quot;highlighter-rouge&quot;&gt;width: 90%&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;width: 420px&lt;/code&gt; to the child container which will not work in fluid layouts. There are cases where we have to use the 100% width to the child container. Consider a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt; unlike the child &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; the textarea will not occupy the 100% width it depends on the &lt;code class=&quot;highlighter-rouge&quot;&gt;col&lt;/code&gt; attribue of the tag. So to make this look pretty with full width, we are forced to give 100% to the text area. Now, if we want to give some nice padding or border to the text area then the textarea will come out of the parent div, which is kind of wierd. So to fix this issue we can use this &lt;code class=&quot;highlighter-rouge&quot;&gt;box-sizing&lt;/code&gt; property.&lt;/p&gt;
+&lt;p&gt;You can see in the above example you cannot see the green background. To fix this one ugly solution will be giving &lt;code&gt;width: 90%&lt;/code&gt; or &lt;code&gt;width: 420px&lt;/code&gt; to the child container which will not work in fluid layouts. There are cases where we have to use the 100% width to the child container. Consider a &lt;code&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt; unlike the child &lt;code&gt;div&lt;/code&gt; the textarea will not occupy the 100% width it depends on the &lt;code&gt;col&lt;/code&gt; attribue of the tag. So to make this look pretty with full width, we are forced to give 100% to the text area. Now, if we want to give some nice padding or border to the text area then the textarea will come out of the parent div, which is kind of wierd. So to fix this issue we can use this &lt;code&gt;box-sizing&lt;/code&gt; property.&lt;/p&gt;
 
 &lt;p&gt;box-sizing allows you to switch box models :&lt;/p&gt;
 
@@ -710,45 +713,45 @@ Width = width + padding-right + padding-left + border-right + border-left + marg
 
 &lt;p&gt;First off, I want to share my ST User settings; You can see the settings below or you can get it from this &lt;a href=&quot;https://gist.github.com/websiddu/2c7150bad44ad2b7ab27&quot; target=&quot;_blank&quot;&gt;gist&lt;/a&gt;.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;color_scheme&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Packages/Color Scheme - Default/Twilight.tmTheme&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;detect_indentation&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;ensure_newline_at_eof_on_save&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;tab_size&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;translate_tabs_to_spaces&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;trim_trailing_white_space_on_save&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;file_exclude_patterns&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;color_scheme&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Packages/Color Scheme - Default/Twilight.tmTheme&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;detect_indentation&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;ensure_newline_at_eof_on_save&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;tab_size&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;translate_tabs_to_spaces&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;trim_trailing_white_space_on_save&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;file_exclude_patterns&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;.DS_Store&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;*.scssc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;*.gem&quot;&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;.DS_Store&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;*.scssc&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;*.gem&amp;quot;&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;folder_exclude_patterns&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;folder_exclude_patterns&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;.git&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;.sass-cache&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;.bundle&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;.tmp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;tmp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;node_modules&quot;&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;.git&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;.sass-cache&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;.bundle&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;.tmp&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;tmp&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;node_modules&amp;quot;&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;font_face&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Monaco&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;font_options&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;font_face&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Monaco&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;font_options&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;no_bold&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;subpixel_antialias&quot;&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;no_bold&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;subpixel_antialias&amp;quot;&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;font_size&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;13.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;highlight_line&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;highlight_modified_tabs&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;ignored_packages&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;font_size&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;13.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;highlight_line&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;highlight_modified_tabs&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;ignored_packages&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;Vintage&quot;&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;Vintage&amp;quot;&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;rulers&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&amp;quot;rulers&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;You can make this as your settings just by copying and pasting this to your User - Settings.&lt;/p&gt;
 
@@ -758,7 +761,7 @@ Width = width + padding-right + padding-left + border-right + border-left + marg
 
 &lt;p&gt;Package Control is one of my favorite plugins, it allows users to manage packages very easily, with one shortcut you have access to a long list of plugins available to install and update is automatically handled. To install it open the console View → Show Console or &lt;strong&gt;Ctrl + `&lt;/strong&gt;, then paste the following code :&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib.request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;hashlib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Package Control.sublime-package'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ipp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sublime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installed_packages_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;install_opener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;build_opener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ProxyHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'http://sublime.wbond.net/'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%20&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hashlib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sha256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;by&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hexdigest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Error validating download (got &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s instead of &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s), please try manual install'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ipp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'wb'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;by&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib.request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;hashlib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;Package Control.sublime-package&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ipp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sublime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installed_packages_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;install_opener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;build_opener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ProxyHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;http://sublime.wbond.net/&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39; &amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;%20&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hashlib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sha256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;by&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hexdigest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Error validating download (got &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; instead of &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;), please try manual install&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ipp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;wb&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;by&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;or you can visit &lt;a href=&quot;https://sublime.wbond.net/installation&quot; target=&quot;_blank&quot;&gt;https://sublime.wbond.net/installation&lt;/a&gt;&lt;/p&gt;
 
@@ -789,7 +792,7 @@ Width = width + padding-right + padding-left + border-right + border-left + marg
 &lt;p&gt;Checkout the installaiton guide &lt;a herf=&quot;http://livestyle.emmet.io/install/&quot; target=&quot;_blank&quot;&gt;http://livestyle.emmet.io/install/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;brackethighlighter&quot;&gt;BracketHighlighter&lt;/h4&gt;
-&lt;p&gt;Bracket Highlighter matches a variety of brackets such as: &lt;code class=&quot;highlighter-rouge&quot;&gt;[]&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&quot;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;''&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tag&amp;gt;&amp;lt;/tag&amp;gt;&lt;/code&gt;, and even custom brackets. This is a very handy plugin with this you can easly find out where is the closing tag.&lt;/p&gt;
+&lt;p&gt;Bracket Highlighter matches a variety of brackets such as: &lt;code&gt;[]&lt;/code&gt;, &lt;code&gt;()&lt;/code&gt;, &lt;code&gt;{}&lt;/code&gt;, &lt;code&gt;&quot;&quot;&lt;/code&gt;, &lt;code&gt;&#39;&#39;&lt;/code&gt;, &lt;code&gt;&amp;lt;tag&amp;gt;&amp;lt;/tag&amp;gt;&lt;/code&gt;, and even custom brackets. This is a very handy plugin with this you can easly find out where is the closing tag.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/-xg4xIG_vefA/Uv8GspSIpdI/AAAAAAAABNU/N97iswqj5DY/s0-I/bracket.png&quot; alt=&quot;Bracket hilighter&quot; /&gt;&lt;/p&gt;
 
@@ -844,7 +847,7 @@ Width = width + padding-right + padding-left + border-right + border-left + marg
    <link href="http://0.0.0.0:4000/understanding-event-preventdefault-better.html"/>
    <updated>2014-02-09T00:00:00+00:00</updated>
    <id>http://0.0.0.0:4000//understanding-event-preventdefault-better</id>
-   <content type="html">&lt;p&gt;It’s pretty common that many of us use &lt;code class=&quot;highlighter-rouge&quot;&gt;event.preventDefault&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;return false&lt;/code&gt; on a click event or any other event. Lets see &lt;code class=&quot;highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; first. The function name itself more or less tells the story, that it will prevents the default action on any event.&lt;/p&gt;
+   <content type="html">&lt;p&gt;It’s pretty common that many of us use &lt;code&gt;event.preventDefault&lt;/code&gt; and &lt;code&gt;return false&lt;/code&gt; on a click event or any other event. Lets see &lt;code&gt;event.preventDefault()&lt;/code&gt; first. The function name itself more or less tells the story, that it will prevents the default action on any event.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;event.preventDefault() — Cancels the event if it is cancelable, without stopping further propagation of the event.&lt;/p&gt;
@@ -852,54 +855,54 @@ Width = width + padding-right + padding-left + border-right + border-left + marg
 
 &lt;p&gt;Let’s see an example, say in your awesome cool website you have a link to google.com and you want to show google.com in a modal window instead opening up in the new tab, then you will do something similar to below.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a.open_modal&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a.open_modal&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
   &lt;span class=&quot;c1&quot;&gt;// Open modal&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'#modal'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;modal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'href'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;#modal&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;modal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;href&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;The example above is specific to jQuery, However &lt;code class=&quot;highlighter-rouge&quot;&gt;preventDefault()&lt;/code&gt; is a JavaScript function on an event. Most of the developers think that &lt;code class=&quot;highlighter-rouge&quot;&gt;preventDefault()&lt;/code&gt; is a jQuery function but its not. See the below example&lt;/p&gt;
+&lt;p&gt;The example above is specific to jQuery, However &lt;code&gt;preventDefault()&lt;/code&gt; is a JavaScript function on an event. Most of the developers think that &lt;code&gt;preventDefault()&lt;/code&gt; is a jQuery function but its not. See the below example&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;preventDefault example&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;stopDefAction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;evt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;evt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;You shall not pass!!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;You shall not pass!!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'my-form'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-      &lt;span class=&quot;s1&quot;&gt;'submit'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;stopDefAction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;my-form&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;s1&quot;&gt;&amp;#39;submit&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;stopDefAction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onload=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Init()&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onload=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Init()&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Please click on the submit button.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;my-form&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;checkbox&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;my-checkbox&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;label&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;for=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;my-checkbox&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Checkbox&lt;span class=&quot;nt&quot;&gt;&amp;lt;/label&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;submit&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Submit&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;my-form&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;checkbox&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;my-checkbox&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;label&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;for=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;my-checkbox&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Checkbox&lt;span class=&quot;nt&quot;&gt;&amp;lt;/label&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;submit&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Submit&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Above example stops the normal form submit when you click on the submit button. See in action below&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;jsbin-embed&quot; href=&quot;http://jsbin.com/dasob/8/embed?output&quot;&gt;preventDefault example&lt;/a&gt;&lt;script src=&quot;http://static.jsbin.com/js/embed.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;eventdefaultprevented&quot;&gt;event.defaultPrevented&lt;/h4&gt;
-&lt;p&gt;So now we successfully prevented the default action, now you may ask how do I find out the event is prevented or not. As of Gecko 6.0, calling preventDefault() causes the &lt;code class=&quot;highlighter-rouge&quot;&gt;event.defaultPrevented&lt;/code&gt; property’s value to become true. In short &lt;code class=&quot;highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; will make the boolean &lt;code class=&quot;highlighter-rouge&quot;&gt;event.defaultPrevented&lt;/code&gt; true. A simple if condition to check if default is prevented or not.&lt;/p&gt;
+&lt;p&gt;So now we successfully prevented the default action, now you may ask how do I find out the event is prevented or not. As of Gecko 6.0, calling preventDefault() causes the &lt;code&gt;event.defaultPrevented&lt;/code&gt; property’s value to become true. In short &lt;code&gt;event.preventDefault()&lt;/code&gt; will make the boolean &lt;code&gt;event.defaultPrevented&lt;/code&gt; true. A simple if condition to check if default is prevented or not.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;event.defaultPrevented is a boolean turned to true when event.preventDefault() is called.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;defaultPrevented&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;defaultPrevented&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;cm&quot;&gt;/* the default was prevented */&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Browser support for event.defaultPrevented&lt;/p&gt;
 
@@ -924,9 +927,9 @@ Width = width + padding-right + padding-left + border-right + border-left + marg
     &lt;/tbody&gt;
   &lt;/table&gt;
 
-&lt;p&gt;Before using event.preventDefault make sure if the event default event can be preventable with &lt;code class=&quot;highlighter-rouge&quot;&gt;event.cancelable&lt;/code&gt; function. You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;event.cancelable&lt;/code&gt; to check if the event is cancelable. Calling preventDefault for a non-cancelable event has no effect.&lt;/p&gt;
+&lt;p&gt;Before using event.preventDefault make sure if the event default event can be preventable with &lt;code&gt;event.cancelable&lt;/code&gt; function. You can use &lt;code&gt;event.cancelable&lt;/code&gt; to check if the event is cancelable. Calling preventDefault for a non-cancelable event has no effect.&lt;/p&gt;
 
-&lt;p&gt;NOTE: &lt;code class=&quot;highlighter-rouge&quot;&gt;preventDefault&lt;/code&gt; doesn’t stop further propagation of the event through the DOM. event.stopPropagation should be used for that.&lt;/p&gt;
+&lt;p&gt;NOTE: &lt;code&gt;preventDefault&lt;/code&gt; doesn’t stop further propagation of the event through the DOM. event.stopPropagation should be used for that.&lt;/p&gt;
 
 &lt;h4 id=&quot;further-reading&quot;&gt;Further reading&lt;/h4&gt;
 &lt;ul&gt;
@@ -956,7 +959,7 @@ A content delivery network or content distribution network (CDN) is a large dist
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Since google appengine works on &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;java&lt;/code&gt;,  &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt; &lt;small&gt;(Expiremantal)&lt;/small&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;go&lt;/code&gt; &lt;small&gt;(Expiremantal)&lt;/small&gt; programming language, make sure that any one of those works on you machine. &lt;img src=&quot;https://lh6.googleusercontent.com/-G1X916LClws/UvXaIyN9QOI/AAAAAAAABGs/7IFIuMCFXE0/s0-I/languages.png&quot; alt=&quot;Languages supported by google appengine&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;Since google appengine works on &lt;code&gt;python&lt;/code&gt;, &lt;code&gt;java&lt;/code&gt;,  &lt;code&gt;PHP&lt;/code&gt; &lt;small&gt;(Expiremantal)&lt;/small&gt; and &lt;code&gt;go&lt;/code&gt; &lt;small&gt;(Expiremantal)&lt;/small&gt; programming language, make sure that any one of those works on you machine. &lt;img src=&quot;https://lh6.googleusercontent.com/-G1X916LClws/UvXaIyN9QOI/AAAAAAAABGs/7IFIuMCFXE0/s0-I/languages.png&quot; alt=&quot;Languages supported by google appengine&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Download the Google App Engine SDK from the following URL that suits your Operating system &lt;a href=&quot;https://developers.google.com/appengine/downloads&quot; target=&quot;_blank&quot;&gt;https://developers.google.com/appengine/downloads&lt;/a&gt; &lt;img src=&quot;https://lh6.googleusercontent.com/-iqpoeVE7p7M/UvXbsk2e4UI/AAAAAAAABHE/1cJt1JxwhFU/s0-I/download.png&quot; alt=&quot;Download google appengine SDK for Python&quot; /&gt; After downloading install app engine sdk on you machine.&lt;/p&gt;
@@ -965,22 +968,22 @@ A content delivery network or content distribution network (CDN) is a large dist
     &lt;p&gt;Sign up for Google App Engine at https://appengine.google.com. For this you need a Google account (your GMail address for example, if you dont have one it is free to create one)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a new app engine application by clicking on the &lt;code class=&quot;highlighter-rouge&quot;&gt;Create new Applicaiton&lt;/code&gt; button on the landing screen. &lt;img src=&quot;https://lh5.googleusercontent.com/-mymKEagqm0w/UvXekLprU0I/AAAAAAAABH0/PCZAEZOtTmg/s0-I/create_a_new_project.png&quot; alt=&quot;Create a new app engine applicaiton&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;Create a new app engine application by clicking on the &lt;code&gt;Create new Applicaiton&lt;/code&gt; button on the landing screen. &lt;img src=&quot;https://lh5.googleusercontent.com/-mymKEagqm0w/UvXekLprU0I/AAAAAAAABH0/PCZAEZOtTmg/s0-I/create_a_new_project.png&quot; alt=&quot;Create a new app engine applicaiton&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a static html project, you can use the &lt;a href=&quot;http://html5boilerplate.com/&quot;&gt;html5 boilerplate&lt;/a&gt; or any other front-end seed project that you like. In my case I created the folders and files maually. Add a file and  name it as &lt;code class=&quot;highlighter-rouge&quot;&gt;app.yaml&lt;/code&gt;, now this make your app-engine project complete. &lt;img src=&quot;https://lh6.googleusercontent.com/-8yVMdxgVIdc/UvYfY8e0oYI/AAAAAAAABIU/3559qkAfR2s/s0-I/file_structure.png&quot; alt=&quot;File stricture of the application&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;Create a static html project, you can use the &lt;a href=&quot;http://html5boilerplate.com/&quot;&gt;html5 boilerplate&lt;/a&gt; or any other front-end seed project that you like. In my case I created the folders and files maually. Add a file and  name it as &lt;code&gt;app.yaml&lt;/code&gt;, now this make your app-engine project complete. &lt;img src=&quot;https://lh6.googleusercontent.com/-8yVMdxgVIdc/UvYfY8e0oYI/AAAAAAAABIU/3559qkAfR2s/s0-I/file_structure.png&quot; alt=&quot;File stricture of the application&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Open up the project in your favorite editor and copy paste pastes the following snipped. &lt;img src=&quot;https://lh3.googleusercontent.com/-dkcO7Wmyehk/UvYhZcffgYI/AAAAAAAABI0/8X5xb1fo_8E/s0-I/app_yaml_file.png&quot; alt=&quot;Your app.yaml file&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Now upload image files to images folder and any other resources to files folder. You can create any number of folder and make sure you mention that folder path as a &lt;code class=&quot;highlighter-rouge&quot;&gt;static_dir&lt;/code&gt; in app.yaml file.&lt;/p&gt;
+    &lt;p&gt;Now upload image files to images folder and any other resources to files folder. You can create any number of folder and make sure you mention that folder path as a &lt;code&gt;static_dir&lt;/code&gt; in app.yaml file.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Once you completed copying all the static file, now we need to deploy to the google cloud. The easiest way is to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;GoogleAppEngineLauncher&lt;/code&gt; which will be come with the SDK. Add a project to the launcher by clicking on the &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; button. Alternatly you can just drag and drop the project folder on to the Launcher. &lt;img src=&quot;https://lh5.googleusercontent.com/-kb835wXntiU/UvYjUldkUxI/AAAAAAAABJI/-38NpPK9YvE/s0-I/Launcher.png&quot; alt=&quot;GoogleAppEngineLauncher&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;Once you completed copying all the static file, now we need to deploy to the google cloud. The easiest way is to use the &lt;code&gt;GoogleAppEngineLauncher&lt;/code&gt; which will be come with the SDK. Add a project to the launcher by clicking on the &lt;code&gt;+&lt;/code&gt; button. Alternatly you can just drag and drop the project folder on to the Launcher. &lt;img src=&quot;https://lh5.googleusercontent.com/-kb835wXntiU/UvYjUldkUxI/AAAAAAAABJI/-38NpPK9YvE/s0-I/Launcher.png&quot; alt=&quot;GoogleAppEngineLauncher&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Select a project and click on run to test your project locally. If you feel everything works fine click on the &lt;code class=&quot;highlighter-rouge&quot;&gt;Deploy&lt;/code&gt; button to deploy the application. Give your Google account user name and password and sign in.  &lt;img src=&quot;https://lh3.googleusercontent.com/-NyZjW-GEdB0/UvYj-M3o5NI/AAAAAAAABJc/IjoD9noKv2E/s0-I/Deploy.png&quot; alt=&quot;Prompt for user name and password&quot; /&gt; or you can fire up the terminal and cd to the project directory and use this command &lt;code class=&quot;highlighter-rouge&quot;&gt;appcfg.py update .&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;Select a project and click on run to test your project locally. If you feel everything works fine click on the &lt;code&gt;Deploy&lt;/code&gt; button to deploy the application. Give your Google account user name and password and sign in.  &lt;img src=&quot;https://lh3.googleusercontent.com/-NyZjW-GEdB0/UvYj-M3o5NI/AAAAAAAABJc/IjoD9noKv2E/s0-I/Deploy.png&quot; alt=&quot;Prompt for user name and password&quot; /&gt; or you can fire up the terminal and cd to the project directory and use this command &lt;code&gt;appcfg.py update .&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Once the deployment is successful you can access your static files like this http:// &amp;lt; app name &amp;gt;.appspot.com/images/brand.png&lt;/p&gt;
@@ -1013,7 +1016,7 @@ A content delivery network or content distribution network (CDN) is a large dist
    <content type="html">&lt;h4 id=&quot;what-is-emmet&quot;&gt;What is emmet?&lt;/h4&gt;
 &lt;p&gt;Emmet is a collection of abbreviations that expand into html/xml/css, taking the idea of text snippets further.&lt;/p&gt;
 
-&lt;p&gt;When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the &lt;code class=&quot;highlighter-rouge&quot;&gt;TAB&lt;/code&gt; key.&lt;/p&gt;
+&lt;p&gt;When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the &lt;code&gt;TAB&lt;/code&gt; key.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Emmet (previously known as Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML &amp;amp; CSS workflow.&lt;/p&gt;
@@ -1026,7 +1029,7 @@ A content delivery network or content distribution network (CDN) is a large dist
 
 &lt;p&gt;Unfortunately there is no key board shot cut enable by default in the emmet sublime text plugin. So, Lets create on our own. Open up the Preferences → Package settings → Emmet → Key Bindings - User and put the following code in that file and save it.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;prettyprint JSON
+&lt;p&gt;&lt;code&gt;prettyprint JSON
 [
   {
     &quot;keys&quot;: [
@@ -1040,18 +1043,18 @@ A content delivery network or content distribution network (CDN) is a large dist
 ]
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Now you can use the short cut &lt;code class=&quot;highlighter-rouge&quot;&gt;Shift&lt;/code&gt;+ &lt;code class=&quot;highlighter-rouge&quot;&gt;Command&lt;/code&gt;+ &lt;code class=&quot;highlighter-rouge&quot;&gt;m&lt;/code&gt; to merge multiple lines in between a tag.&lt;/p&gt;
+&lt;p&gt;Now you can use the short cut &lt;code&gt;Shift&lt;/code&gt;+ &lt;code&gt;Command&lt;/code&gt;+ &lt;code&gt;m&lt;/code&gt; to merge multiple lines in between a tag.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/-YTQ4NzZ9BUQ/Uuv8TS0PyHI/AAAAAAAABDU/SYNzmoBOLE4/s0-I/merge_lines.gif&quot; alt=&quot;Merge Lines with emmet&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;update-image-size&quot;&gt;Update image size&lt;/h4&gt;
-&lt;p&gt;Its always a good practice to mention the height and width of the image in the &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; tag, However 90% of web developers ignore specifying the height and width attributes. For those this snippet is very useful.&lt;/p&gt;
+&lt;p&gt;Its always a good practice to mention the height and width of the image in the &lt;code&gt;img&lt;/code&gt; tag, However 90% of web developers ignore specifying the height and width attributes. For those this snippet is very useful.&lt;/p&gt;
 
 &lt;p&gt;This action helps you to automate this process: simply place caret inside &lt;img /&gt; tag and run this action to add/update width and height attributes.&lt;/p&gt;
 
 &lt;p&gt;In CSS, place caret inside property value with url() function to add/update width and height properties for current rule.&lt;/p&gt;
 
-&lt;p&gt;You just need to press &lt;code class=&quot;highlighter-rouge&quot;&gt;shift&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You just need to press &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;i&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Note that this action also works for absolute URLs: it will start searching for requested file from host file’s folder and then will traverse up the tree.&lt;/p&gt;
 
@@ -1061,7 +1064,7 @@ A content delivery network or content distribution network (CDN) is a large dist
 
 &lt;p&gt;How much time you have spend adding up pixes, subtracting padding in the calculator application! Now  you can evaluate math expression with in the code editor.&lt;/p&gt;
 
-&lt;p&gt;Evaluates simple math expression like 13*7 or 14/5 and outputs its result. You can use \ operator which is equivalent to &lt;code class=&quot;highlighter-rouge&quot;&gt;round(a/b)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Evaluates simple math expression like 13*7 or 14/5 and outputs its result. You can use \ operator which is equivalent to &lt;code&gt;round(a/b)&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;This is very useful in CSS where numeric values should be modified frequently.&lt;/p&gt;
 
@@ -1074,17 +1077,17 @@ A content delivery network or content distribution network (CDN) is a large dist
 &lt;p&gt;Shortcuts in sublime text 3 for increment&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;Up&lt;/code&gt; — increments by 1 point&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Alt&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;Up&lt;/code&gt; — increments by 0.1 point&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Alt&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;Command&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;UP&lt;/code&gt; — increments by 10 point&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Up&lt;/code&gt; — increments by 1 point&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Up&lt;/code&gt; — increments by 0.1 point&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Command&lt;/code&gt; + &lt;code&gt;UP&lt;/code&gt; — increments by 10 point&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Shortcuts in sublime text 3 for decrements&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;Up&lt;/code&gt; — decrements by 1 point&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Alt&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;Up&lt;/code&gt; — decrements by 0.1 point&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Alt&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;Command&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;UP&lt;/code&gt; — decrements by 10 point&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Up&lt;/code&gt; — decrements by 1 point&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Up&lt;/code&gt; — decrements by 0.1 point&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Command&lt;/code&gt; + &lt;code&gt;UP&lt;/code&gt; — decrements by 10 point&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-7Vf4A9rSYrU/Uux5O2Z9__I/AAAAAAAABEc/9tNeo2MDh38/s0-I/increment_counter.gif&quot; alt=&quot;Increment/Decrement Number&quot; /&gt;&lt;/p&gt;
@@ -1205,8 +1208,8 @@ We can use the same fluid layout(with percentages) to make them responsive.&lt;/
 
 &lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-cEZzYAeBlfI/UuzoCb59G2I/AAAAAAAABFE/7-QIkDbmna0/s0-I/images.png&quot; alt=&quot;Selective serving&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The CSS solution of &lt;code class=&quot;highlighter-rouge&quot;&gt;display:none&lt;/code&gt; is not viable. It hides images from view, but they’re still requested and downloaded. If you want images to show only above a certain breakpoint, the better bet is to load them conditionally, after the page load has occurred.
-The main concept is we will bypass the image loading by not using the img tag. We place a &lt;code class=&quot;highlighter-rouge&quot;&gt;data-imgsrc&lt;/code&gt; attribute for each div tag or any other tag and we will load the image based on the screen resolution through javascript. Read Implementing Responsive Design with Media from the book Implementing Responsive Design&lt;/p&gt;
+&lt;p&gt;The CSS solution of &lt;code&gt;display:none&lt;/code&gt; is not viable. It hides images from view, but they’re still requested and downloaded. If you want images to show only above a certain breakpoint, the better bet is to load them conditionally, after the page load has occurred.
+The main concept is we will bypass the image loading by not using the img tag. We place a &lt;code&gt;data-imgsrc&lt;/code&gt; attribute for each div tag or any other tag and we will load the image based on the screen resolution through javascript. Read Implementing Responsive Design with Media from the book Implementing Responsive Design&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Background Images:&lt;/strong&gt;
 Its ok when you use repeat on your backgound image, if you are using a no repeat background image you need to scale it along with the screen resolution.&lt;/p&gt;
@@ -1225,7 +1228,7 @@ Keeping in mind that we have retina display devices available in the market. SVG
 &lt;h4 id=&quot;tabs-horizontal-and-vertical&quot;&gt;Tabs (Horizontal and Vertical):&lt;/h4&gt;
 &lt;p&gt;Image description not specified.
 Tabs are a kind of menus, (http://twitter.github.com/bootstrap/javascript.html#tabs). So if we have more number of tabs and if we want to show them in mobile devices its very difficult to show them as it is.
-the solution can be converting the tab to a &lt;code class=&quot;highlighter-rouge&quot;&gt;select box&lt;/code&gt;.
+the solution can be converting the tab to a &lt;code&gt;select box&lt;/code&gt;.
 few other solutions
 https://github.com/mlbli/Responsive-tabs&lt;/p&gt;
 
