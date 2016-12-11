@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesomeness of emmet &mdash; Siddhartha Gudipati</title>
     <link href="https://fonts.googleapis.com/css?family=Puritan:400,700|Roboto+Mono:300,400,500|Mandali" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/main.css">
+    <link type="text/css" rel="stylesheet" href="/assets/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/logo.png"/>
+    <link rel="apple-touch-icon" href="/blog.svg"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Siddhartha Gudipati" />
     <meta name="title" content="Awesomeness of emmet ">
     <link rel="canonical" href="http://0.0.0.0:4000/awesome-emmet.html">
@@ -18,7 +18,7 @@
     <meta property="og:url" content="http://0.0.0.0:4000/awesome-emmet.html"/>
     
     
-    <meta property="og:description" content="#### What is emmet? Emmet is a collection of abbreviations that expand into html/xml/css, taking the idea of text snippets further. When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the `TAB` key. > Emmet (previously known as Zen Coding) is a web-developer's toolkit that can greatly improve your HTML & CSS workflow. There are some really cool features in emmet that we don't use frequently. I want to share some rarely used but very useful emmet features. Lets get started. #### Merge Lines It merges selected lines into..."/>
+    <meta property="og:description" content="What is emmet? Emmet is a collection of abbreviations that expand into html/xml/css, taking the idea of text snippets further. When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the TAB key. Emmet (previously known as Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML &amp; CSS workflow. There are some really cool features in emmet that we don’t use frequently. I want to share some rarely used but very useful emmet features. Lets get started. Merge Lines It merges selected lines into a single one...."/>
     <meta name="description" content="What is emmet? Emmet is a collection of abbreviations that expand into html/xml/css, taking the idea of text snippets further. When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the TAB key. Emmet (previously known as Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML &amp; CSS workflow. There are some really cool features in emmet that we don’t use frequently. I want to share some rarely used but very useful emmet features. Lets get started. Merge Lines It merges selected lines into a single one...."/>
     
     <meta property="og:site_name" content="Siddhartha Gudipati">
@@ -69,14 +69,14 @@
             <h2 class="post-title" role="title">Awesomeness of emmet</h2>
             <div class="post-meta" role="meta">
                 <time>January 31, 2014</time> &mdash;
-                <span> 2  minutes read</span>
+                <span> 3  minutes read</span>
             </div>
             <main class="post-content">
                 
                 <h4 id="what-is-emmet">What is emmet?</h4>
 <p>Emmet is a collection of abbreviations that expand into html/xml/css, taking the idea of text snippets further.</p>
 
-<p>When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the <code>TAB</code> key.</p>
+<p>When working with Emmet, type in the appropriate abbreviation and hit the action key. In Sublime Text 2/3 this is the <code class="highlighter-rouge">TAB</code> key.</p>
 
 <blockquote>
   <p>Emmet (previously known as Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML &amp; CSS workflow.</p>
@@ -89,7 +89,7 @@
 
 <p>Unfortunately there is no key board shot cut enable by default in the emmet sublime text plugin. So, Lets create on our own. Open up the Preferences → Package settings → Emmet → Key Bindings - User and put the following code in that file and save it.</p>
 
-<p><code>prettyprint JSON
+<p><code class="highlighter-rouge">prettyprint JSON
 [
   {
     "keys": [
@@ -103,18 +103,18 @@
 ]
 </code></p>
 
-<p>Now you can use the short cut <code>Shift</code>+ <code>Command</code>+ <code>m</code> to merge multiple lines in between a tag.</p>
+<p>Now you can use the short cut <code class="highlighter-rouge">Shift</code>+ <code class="highlighter-rouge">Command</code>+ <code class="highlighter-rouge">m</code> to merge multiple lines in between a tag.</p>
 
 <p><img src="https://lh4.googleusercontent.com/-YTQ4NzZ9BUQ/Uuv8TS0PyHI/AAAAAAAABDU/SYNzmoBOLE4/s0-I/merge_lines.gif" alt="Merge Lines with emmet" /></p>
 
 <h4 id="update-image-size">Update image size</h4>
-<p>Its always a good practice to mention the height and width of the image in the <code>img</code> tag, However 90% of web developers ignore specifying the height and width attributes. For those this snippet is very useful.</p>
+<p>Its always a good practice to mention the height and width of the image in the <code class="highlighter-rouge">img</code> tag, However 90% of web developers ignore specifying the height and width attributes. For those this snippet is very useful.</p>
 
 <p>This action helps you to automate this process: simply place caret inside <img /> tag and run this action to add/update width and height attributes.</p>
 
 <p>In CSS, place caret inside property value with url() function to add/update width and height properties for current rule.</p>
 
-<p>You just need to press <code>shift</code> + <code>Ctrl</code> + <code>i</code></p>
+<p>You just need to press <code class="highlighter-rouge">shift</code> + <code class="highlighter-rouge">Ctrl</code> + <code class="highlighter-rouge">i</code></p>
 
 <p>Note that this action also works for absolute URLs: it will start searching for requested file from host file’s folder and then will traverse up the tree.</p>
 
@@ -124,7 +124,7 @@
 
 <p>How much time you have spend adding up pixes, subtracting padding in the calculator application! Now  you can evaluate math expression with in the code editor.</p>
 
-<p>Evaluates simple math expression like 13*7 or 14/5 and outputs its result. You can use \ operator which is equivalent to <code>round(a/b)</code>.</p>
+<p>Evaluates simple math expression like 13*7 or 14/5 and outputs its result. You can use \ operator which is equivalent to <code class="highlighter-rouge">round(a/b)</code>.</p>
 
 <p>This is very useful in CSS where numeric values should be modified frequently.</p>
 
@@ -137,17 +137,17 @@
 <p>Shortcuts in sublime text 3 for increment</p>
 
 <ul>
-  <li><code>Ctrl</code> + <code>Up</code> — increments by 1 point</li>
-  <li><code>Alt</code> + <code>Up</code> — increments by 0.1 point</li>
-  <li><code>Alt</code> + <code>Command</code> + <code>UP</code> — increments by 10 point</li>
+  <li><code class="highlighter-rouge">Ctrl</code> + <code class="highlighter-rouge">Up</code> — increments by 1 point</li>
+  <li><code class="highlighter-rouge">Alt</code> + <code class="highlighter-rouge">Up</code> — increments by 0.1 point</li>
+  <li><code class="highlighter-rouge">Alt</code> + <code class="highlighter-rouge">Command</code> + <code class="highlighter-rouge">UP</code> — increments by 10 point</li>
 </ul>
 
 <p>Shortcuts in sublime text 3 for decrements</p>
 
 <ul>
-  <li><code>Ctrl</code> + <code>Up</code> — decrements by 1 point</li>
-  <li><code>Alt</code> + <code>Up</code> — decrements by 0.1 point</li>
-  <li><code>Alt</code> + <code>Command</code> + <code>UP</code> — decrements by 10 point</li>
+  <li><code class="highlighter-rouge">Ctrl</code> + <code class="highlighter-rouge">Up</code> — decrements by 1 point</li>
+  <li><code class="highlighter-rouge">Alt</code> + <code class="highlighter-rouge">Up</code> — decrements by 0.1 point</li>
+  <li><code class="highlighter-rouge">Alt</code> + <code class="highlighter-rouge">Command</code> + <code class="highlighter-rouge">UP</code> — decrements by 10 point</li>
 </ul>
 
 <p><img src="https://lh5.googleusercontent.com/-7Vf4A9rSYrU/Uux5O2Z9__I/AAAAAAAABEc/9tNeo2MDh38/s0-I/increment_counter.gif" alt="Increment/Decrement Number" /></p>
@@ -224,7 +224,7 @@
         </div>
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-<script src="/assets/main.js"></script>
+<script type="text/javascript" src="/assets/main.js"></script>
 
 
 

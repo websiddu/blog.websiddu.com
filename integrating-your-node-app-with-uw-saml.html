@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrating node apps with UW's SAML &mdash; Siddhartha Gudipati</title>
     <link href="https://fonts.googleapis.com/css?family=Puritan:400,700|Roboto+Mono:300,400,500|Mandali" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/main.css">
+    <link type="text/css" rel="stylesheet" href="/assets/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/logo.png"/>
+    <link rel="apple-touch-icon" href="/blog.svg"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Siddhartha Gudipati" />
     <meta name="title" content="Integrating node apps with UW's SAML ">
     <link rel="canonical" href="http://0.0.0.0:4000/integrating-your-node-app-with-uw-saml.html">
@@ -18,7 +18,7 @@
     <meta property="og:url" content="http://0.0.0.0:4000/integrating-your-node-app-with-uw-saml.html"/>
     
     
-    <meta property="og:description" content="As part of my on-campus jobs, I built a custom form builder for the UW Dept of Sustainability. I used MEAN (MongoDB, Express.js, Angular.js, Node) as my tech stack. I was the only designer and developer for the whole application. So, for that I was required to integrate the application with UW NetID using SAML. After toiling for a couple of months, I was able to successfully integrate UWNetID with the node application. There was no good documentation on how to do that. So, I decided to write this awesome blog post to help other people like me. **Note:** I..."/>
+    <meta property="og:description" content="As part of my on-campus jobs, I built a custom form builder for the UW Dept of Sustainability. I used MEAN (MongoDB, Express.js, Angular.js, Node) as my tech stack. I was the only designer and developer for the whole application. So, for that I was required to integrate the application with UW NetID using SAML. After toiling for a couple of months, I was able to successfully integrate UWNetID with the node application. There was no good documentation on how to do that. So, I decided to write this awesome blog post to help other people like me. Note: I..."/>
     <meta name="description" content="As part of my on-campus jobs, I built a custom form builder for the UW Dept of Sustainability. I used MEAN (MongoDB, Express.js, Angular.js, Node) as my tech stack. I was the only designer and developer for the whole application. So, for that I was required to integrate the application with UW NetID using SAML. After toiling for a couple of months, I was able to successfully integrate UWNetID with the node application. There was no good documentation on how to do that. So, I decided to write this awesome blog post to help other people like me. Note: I..."/>
     
     <meta property="og:site_name" content="Siddhartha Gudipati">
@@ -100,7 +100,7 @@ or again request UWIT to install it, if you have a server that is managed by the
 <p>Here is my shibb configuration file
 <script src="https://gist.github.com/websiddu/b45f9b2b941b8252bb62.js"></script></p>
 
-<p>Make sure you remember the EntitiyID in line number 10 that should match with your EnitityID in the IDP server. And also make sure that you give valid certificates <code>CredentialResolver</code> at line number 59 and 60.</p>
+<p>Make sure you remember the EntitiyID in line number 10 that should match with your EnitityID in the IDP server. And also make sure that you give valid certificates <code class="highlighter-rouge">CredentialResolver</code> at line number 59 and 60.</p>
 
 <p>You should be able to get the XML metadata
 https://green-certification.uw.edu/Shibboleth.sso/Metadata with proper values.</p>
@@ -200,7 +200,7 @@ https://green-certification.uw.edu/Shibboleth.sso/Metadata with proper values.</
         </div>
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-<script src="/assets/main.js"></script>
+<script type="text/javascript" src="/assets/main.js"></script>
 
 
 

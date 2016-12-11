@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How I implemented accessibility for my portfolio website? &mdash; Siddhartha Gudipati</title>
     <link href="https://fonts.googleapis.com/css?family=Puritan:400,700|Roboto+Mono:300,400,500|Mandali" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/main.css">
+    <link type="text/css" rel="stylesheet" href="/assets/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/logo.png"/>
+    <link rel="apple-touch-icon" href="/blog.svg"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Siddhartha Gudipati" />
     <meta name="title" content="How I implemented accessibility for my portfolio website? ">
     <link rel="canonical" href="http://0.0.0.0:4000/how-i-implemented-accessibility-to-website.html">
@@ -18,7 +18,7 @@
     <meta property="og:url" content="http://0.0.0.0:4000/how-i-implemented-accessibility-to-website.html"/>
     
     
-    <meta property="og:description" content="I am a designer who is full of empathy and I strongly believe in universal design. First of all, let me tell you what I understand about universal design. Wikipedia says, > Universal design (often inclusive design) refers to broad-spectrum ideas meant to produce buildings, products and environments that are inherently accessible to older people, people without disabilities, and people with disabilities. In other words, universal design means creating a product that is usable for anyone. When I say anyone, I mean people who have qualified knowledge to use that product. Universal design is hard and sometimes it's impossible to..."/>
+    <meta property="og:description" content="I am a designer who is full of empathy and I strongly believe in universal design. First of all, let me tell you what I understand about universal design. Wikipedia says, Universal design (often inclusive design) refers to broad-spectrum ideas meant to produce buildings, products and environments that are inherently accessible to older people, people without disabilities, and people with disabilities. In other words, universal design means creating a product that is usable for anyone. When I say anyone, I mean people who have qualified knowledge to use that product. Universal design is hard and sometimes it’s impossible to cover..."/>
     <meta name="description" content="I am a designer who is full of empathy and I strongly believe in universal design. First of all, let me tell you what I understand about universal design. Wikipedia says, Universal design (often inclusive design) refers to broad-spectrum ideas meant to produce buildings, products and environments that are inherently accessible to older people, people without disabilities, and people with disabilities. In other words, universal design means creating a product that is usable for anyone. When I say anyone, I mean people who have qualified knowledge to use that product. Universal design is hard and sometimes it’s impossible to cover..."/>
     
     <meta property="og:site_name" content="Siddhartha Gudipati">
@@ -96,41 +96,41 @@
 <h3 id="the-basics">The Basics</h3>
 <p>Visually disabled people use something called <strong>screen readers</strong> to access the web content. Screen readers are special softwares that will read the content on the screen to them and give some additional powerful shortcuts to help them navigate. There are multiple screen reader softwares available in the market. The most popular ones are JAWS for Windows, NVIDIA for Windows, and Voiceover for Mac iOS. As a Mac user, I used Voice Over(Command + F5 to activate) to work on my website accessibility.</p>
 
-<p>To begin with, I was well aware of adding <code>alt</code> attributes to the images and titles to the hyperlinks. These alt tags were super helpful for screen reader users since they could describe what the image was. Therefore, I went through all my web pages and added alt tags and titles to the images.</p>
+<p>To begin with, I was well aware of adding <code class="highlighter-rouge">alt</code> attributes to the images and titles to the hyperlinks. These alt tags were super helpful for screen reader users since they could describe what the image was. Therefore, I went through all my web pages and added alt tags and titles to the images.</p>
 
 <p>I saw many portfolios that had images with text but leaving no clue for the screen readers on what the image was. This made me little disappointed because I believed that designers should really care about the things they designed that were able to access to everyone.</p>
 
 <h3 id="navigation--lists">Navigation &amp; Lists</h3>
-<p>Navigation places an important role when it comes to keyboard users. Make sure that your navigation uses the semantic markup like <code>nav</code> tags and <code>role=navigation</code> so that screen readers will detect these areas and enable users to jump from one section to the others.</p>
+<p>Navigation places an important role when it comes to keyboard users. Make sure that your navigation uses the semantic markup like <code class="highlighter-rouge">nav</code> tags and <code class="highlighter-rouge">role=navigation</code> so that screen readers will detect these areas and enable users to jump from one section to the others.</p>
 
-<p>Lists can be very effective when being used in a proper manner. Make sure that you use <code>ul</code> and <code>li</code> tags in proper places such as when there is a list of projects or list of tags.</p>
+<p>Lists can be very effective when being used in a proper manner. Make sure that you use <code class="highlighter-rouge">ul</code> and <code class="highlighter-rouge">li</code> tags in proper places such as when there is a list of projects or list of tags.</p>
 
 <h3 id="font-icons">Font-icons</h3>
-<p>Using font icons will block Mac Voice Over. It will stop reading once it finds a font icon. Make sure that your font icon uses  <code>aria-hidden=true</code> and add a description of the icon with <code>sr-only</code> class. Check the below example</p>
+<p>Using font icons will block Mac Voice Over. It will stop reading once it finds a font icon. Make sure that your font icon uses  <code class="highlighter-rouge">aria-hidden=true</code> and add a description of the icon with <code class="highlighter-rouge">sr-only</code> class. Check the below example</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-close&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span> Click here to close <span class="nt">&lt;/span&gt;</span>
-<span class="nt">&lt;/i&gt;</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-close"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span> Click here to close <span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/i&gt;</span></code></pre></figure>
 
 <h3 id="angular-js--spas">Angular JS &amp; SPA’s</h3>
 
-<p>Another challenge is accessibility for single page application. As there is no page refresh in the navigation of single page applications, the screen readers will not detect the page change. I have to inform the page change manually using a <code>$.announce</code>.  I also wrote a detailed blog post about implementing accessibility for single page applications.</p>
+<p>Another challenge is accessibility for single page application. As there is no page refresh in the navigation of single page applications, the screen readers will not detect the page change. I have to inform the page change manually using a <code class="highlighter-rouge">$.announce</code>.  I also wrote a detailed blog post about implementing accessibility for single page applications.</p>
 
 <h3 id="roles--regions">Roles &amp; Regions</h3>
 <p>The roles, their characteristics, the states and properties they support, and specification of how they may be used in markup, should all be considered normative. In plain English, they tell you the type of the content you are at, which will be really helpful for screen reader users to identify the type of object and region and accordingly the user can take an action.</p>
 
 <p>For example</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">role=</span><span class="s">&quot;menubar&quot;</span><span class="nt">&gt;</span>
- <span class="c">&lt;!-- Rule 2A: &quot;File&quot; label via aria-labelledby --&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;menuitem&quot;</span> <span class="na">aria-haspopup=</span><span class="s">&quot;true&quot;</span> <span class="na">aria-labelledby=</span><span class="s">&quot;fileLabel&quot;</span><span class="nt">&gt;&lt;span</span> <span class="na">id=</span><span class="s">&quot;fileLabel&quot;</span><span class="nt">&gt;</span>File<span class="nt">&lt;/span&gt;</span>
-    <span class="nt">&lt;ul</span> <span class="na">role=</span><span class="s">&quot;menu&quot;</span><span class="nt">&gt;</span>
-      <span class="c">&lt;!-- Rule 2C: &quot;New&quot; label via Namefrom:contents --&gt;</span>
-      <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;menuitem&quot;</span><span class="nt">&gt;</span>New<span class="nt">&lt;/li&gt;</span>
-      <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;menuitem&quot;</span><span class="nt">&gt;</span>Open<span class="nt">&lt;/li&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">role=</span><span class="s">"menubar"</span><span class="nt">&gt;</span>
+ <span class="c">&lt;!-- Rule 2A: "File" label via aria-labelledby --&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"menuitem"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-labelledby=</span><span class="s">"fileLabel"</span><span class="nt">&gt;&lt;span</span> <span class="na">id=</span><span class="s">"fileLabel"</span><span class="nt">&gt;</span>File<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">role=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
+      <span class="c">&lt;!-- Rule 2C: "New" label via Namefrom:contents --&gt;</span>
+      <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"menuitem"</span><span class="nt">&gt;</span>New<span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"menuitem"</span><span class="nt">&gt;</span>Open<span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;/ul&gt;</span>
   <span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre></div>
+<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
 
 <h3 id="color-contrast">Color contrast</h3>
 
@@ -229,7 +229,7 @@
         </div>
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-<script src="/assets/main.js"></script>
+<script type="text/javascript" src="/assets/main.js"></script>
 
 
 
