@@ -7,6 +7,12 @@ $telugu-font: 'Mandali', sans-serif;
     font-family: $telugu-font;
     font-size: 1.2rem;
   }
+  blockquote {
+    p {
+      font-size: 1.4rem;
+      color: #888;
+    }
+  }
   h1, h2, h3, h4, h5, h6 {
     font-family: $telugu-font;
   }
