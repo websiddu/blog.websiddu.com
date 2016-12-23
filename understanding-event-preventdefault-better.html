@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Understanding e.preventDefault() better &mdash; Siddhartha Gudipati</title>
     <link href="https://fonts.googleapis.com/css?family=Puritan:400,700|Roboto+Mono:300,400,500|Mandali" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/main.css">
+    <link type="text/css" rel="stylesheet" href="/assets/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/blog.svg"/>
@@ -18,7 +18,7 @@
     <meta property="og:url" content="http://0.0.0.0:4000/understanding-event-preventdefault-better.html"/>
     
     
-    <meta property="og:description" content="It's pretty common that many of us use `event.preventDefault` and `return false` on a click event or any other event. Lets see `event.preventDefault()` first. The function name itself more or less tells the story, that it will prevents the default action on any event. > event.preventDefault() &mdash; Cancels the event if it is cancelable, without stopping further propagation of the event. Let's see an example, say in your awesome cool website you have a link to google.com and you want to show google.com in a modal window instead opening up in the new tab, then you will do something similar..."/>
+    <meta property="og:description" content="It’s pretty common that many of us use event.preventDefault and return false on a click event or any other event. Lets see event.preventDefault() first. The function name itself more or less tells the story, that it will prevents the default action on any event. event.preventDefault() — Cancels the event if it is cancelable, without stopping further propagation of the event. Let’s see an example, say in your awesome cool website you have a link to google.com and you want to show google.com in a modal window instead opening up in the new tab, then you will do something similar to..."/>
     <meta name="description" content="It’s pretty common that many of us use event.preventDefault and return false on a click event or any other event. Lets see event.preventDefault() first. The function name itself more or less tells the story, that it will prevents the default action on any event. event.preventDefault() — Cancels the event if it is cancelable, without stopping further propagation of the event. Let’s see an example, say in your awesome cool website you have a link to google.com and you want to show google.com in a modal window instead opening up in the new tab, then you will do something similar to..."/>
     
     <meta property="og:site_name" content="Siddhartha Gudipati">
@@ -73,7 +73,7 @@
             </div>
             <main class="post-content">
                 
-                <p>It’s pretty common that many of us use <code>event.preventDefault</code> and <code>return false</code> on a click event or any other event. Lets see <code>event.preventDefault()</code> first. The function name itself more or less tells the story, that it will prevents the default action on any event.</p>
+                <p>It’s pretty common that many of us use <code class="highlighter-rouge">event.preventDefault</code> and <code class="highlighter-rouge">return false</code> on a click event or any other event. Lets see <code class="highlighter-rouge">event.preventDefault()</code> first. The function name itself more or less tells the story, that it will prevents the default action on any event.</p>
 
 <blockquote>
   <p>event.preventDefault() — Cancels the event if it is cancelable, without stopping further propagation of the event.</p>
@@ -81,54 +81,54 @@
 
 <p>Let’s see an example, say in your awesome cool website you have a link to google.com and you want to show google.com in a modal window instead opening up in the new tab, then you will do something similar to below.</p>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;a.open_modal&quot;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="s2">"a.open_modal"</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
   <span class="nx">event</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
   <span class="c1">// Open modal</span>
-  <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#modal&#39;</span><span class="p">).</span><span class="nx">modal</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;href&#39;</span><span class="p">));</span>
-<span class="p">}</span></code></pre></div>
+  <span class="nx">$</span><span class="p">(</span><span class="s1">'#modal'</span><span class="p">).</span><span class="nx">modal</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'href'</span><span class="p">));</span>
+<span class="p">}</span></code></pre></figure>
 
-<p>The example above is specific to jQuery, However <code>preventDefault()</code> is a JavaScript function on an event. Most of the developers think that <code>preventDefault()</code> is a jQuery function but its not. See the below example</p>
+<p>The example above is specific to jQuery, However <code class="highlighter-rouge">preventDefault()</code> is a JavaScript function on an event. Most of the developers think that <code class="highlighter-rouge">preventDefault()</code> is a jQuery function but its not. See the below example</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;head&gt;</span>
   <span class="nt">&lt;title&gt;</span>preventDefault example<span class="nt">&lt;/title&gt;</span>
   <span class="nt">&lt;script&gt;</span>
   <span class="kd">function</span> <span class="nx">stopDefAction</span><span class="p">(</span><span class="nx">evt</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">evt</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You shall not pass!!&quot;</span><span class="p">);</span>
+    <span class="nx">alert</span><span class="p">(</span><span class="s2">"You shall not pass!!"</span><span class="p">);</span>
   <span class="p">}</span>
   <span class="kd">function</span> <span class="nx">Init</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;my-form&#39;</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span>
-      <span class="s1">&#39;submit&#39;</span><span class="p">,</span> <span class="nx">stopDefAction</span><span class="p">,</span> <span class="kc">false</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'my-form'</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span>
+      <span class="s1">'submit'</span><span class="p">,</span> <span class="nx">stopDefAction</span><span class="p">,</span> <span class="kc">false</span>
    <span class="p">);</span>
   <span class="p">}</span>
   <span class="nt">&lt;/script&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
-<span class="nt">&lt;body</span> <span class="na">onload=</span><span class="s">&quot;Init()&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;body</span> <span class="na">onload=</span><span class="s">"Init()"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;p&gt;</span>Please click on the submit button.<span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;form</span> <span class="na">id=</span><span class="s">&quot;my-form&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">id=</span><span class="s">&quot;my-checkbox&quot;</span> <span class="nt">/&gt;</span>
-    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;my-checkbox&quot;</span><span class="nt">&gt;</span>Checkbox<span class="nt">&lt;/label&gt;</span>
-    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Submit&quot;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;form</span> <span class="na">id=</span><span class="s">"my-form"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">id=</span><span class="s">"my-checkbox"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"my-checkbox"</span><span class="nt">&gt;</span>Checkbox<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"Submit"</span> <span class="nt">/&gt;</span>
   <span class="nt">&lt;/form&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span></code></pre></div>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
 <p>Above example stops the normal form submit when you click on the submit button. See in action below</p>
 
 <p><a class="jsbin-embed" href="http://jsbin.com/dasob/8/embed?output">preventDefault example</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
 
 <h4 id="eventdefaultprevented">event.defaultPrevented</h4>
-<p>So now we successfully prevented the default action, now you may ask how do I find out the event is prevented or not. As of Gecko 6.0, calling preventDefault() causes the <code>event.defaultPrevented</code> property’s value to become true. In short <code>event.preventDefault()</code> will make the boolean <code>event.defaultPrevented</code> true. A simple if condition to check if default is prevented or not.</p>
+<p>So now we successfully prevented the default action, now you may ask how do I find out the event is prevented or not. As of Gecko 6.0, calling preventDefault() causes the <code class="highlighter-rouge">event.defaultPrevented</code> property’s value to become true. In short <code class="highlighter-rouge">event.preventDefault()</code> will make the boolean <code class="highlighter-rouge">event.defaultPrevented</code> true. A simple if condition to check if default is prevented or not.</p>
 
 <blockquote>
   <p>event.defaultPrevented is a boolean turned to true when event.preventDefault() is called.</p>
 </blockquote>
 
-<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="k">if</span> <span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">defaultPrevented</span><span class="p">)</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="k">if</span> <span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">defaultPrevented</span><span class="p">)</span> <span class="p">{</span>
   <span class="cm">/* the default was prevented */</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span></code></pre></figure>
 
 <p>Browser support for event.defaultPrevented</p>
 
@@ -153,9 +153,9 @@
     </tbody>
   </table>
 
-<p>Before using event.preventDefault make sure if the event default event can be preventable with <code>event.cancelable</code> function. You can use <code>event.cancelable</code> to check if the event is cancelable. Calling preventDefault for a non-cancelable event has no effect.</p>
+<p>Before using event.preventDefault make sure if the event default event can be preventable with <code class="highlighter-rouge">event.cancelable</code> function. You can use <code class="highlighter-rouge">event.cancelable</code> to check if the event is cancelable. Calling preventDefault for a non-cancelable event has no effect.</p>
 
-<p>NOTE: <code>preventDefault</code> doesn’t stop further propagation of the event through the DOM. event.stopPropagation should be used for that.</p>
+<p>NOTE: <code class="highlighter-rouge">preventDefault</code> doesn’t stop further propagation of the event through the DOM. event.stopPropagation should be used for that.</p>
 
 <h4 id="further-reading">Further reading</h4>
 <ul>
@@ -226,7 +226,7 @@
         </div>
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-<script src="/assets/main.js"></script>
+<script type="text/javascript" src="/assets/main.js"></script>
 
 
 

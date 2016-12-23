@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenges in implementing RWD for large sites &mdash; Siddhartha Gudipati</title>
     <link href="https://fonts.googleapis.com/css?family=Puritan:400,700|Roboto+Mono:300,400,500|Mandali" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/main.css">
+    <link type="text/css" rel="stylesheet" href="/assets/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/blog.svg"/>
@@ -172,8 +172,8 @@ We can use the same fluid layout(with percentages) to make them responsive.</p>
 
 <p><img src="https://lh3.googleusercontent.com/-cEZzYAeBlfI/UuzoCb59G2I/AAAAAAAABFE/7-QIkDbmna0/s0-I/images.png" alt="Selective serving" /></p>
 
-<p>The CSS solution of <code>display:none</code> is not viable. It hides images from view, but they’re still requested and downloaded. If you want images to show only above a certain breakpoint, the better bet is to load them conditionally, after the page load has occurred.
-The main concept is we will bypass the image loading by not using the img tag. We place a <code>data-imgsrc</code> attribute for each div tag or any other tag and we will load the image based on the screen resolution through javascript. Read Implementing Responsive Design with Media from the book Implementing Responsive Design</p>
+<p>The CSS solution of <code class="highlighter-rouge">display:none</code> is not viable. It hides images from view, but they’re still requested and downloaded. If you want images to show only above a certain breakpoint, the better bet is to load them conditionally, after the page load has occurred.
+The main concept is we will bypass the image loading by not using the img tag. We place a <code class="highlighter-rouge">data-imgsrc</code> attribute for each div tag or any other tag and we will load the image based on the screen resolution through javascript. Read Implementing Responsive Design with Media from the book Implementing Responsive Design</p>
 
 <p><strong>Background Images:</strong>
 Its ok when you use repeat on your backgound image, if you are using a no repeat background image you need to scale it along with the screen resolution.</p>
@@ -192,7 +192,7 @@ Keeping in mind that we have retina display devices available in the market. SVG
 <h4 id="tabs-horizontal-and-vertical">Tabs (Horizontal and Vertical):</h4>
 <p>Image description not specified.
 Tabs are a kind of menus, (http://twitter.github.com/bootstrap/javascript.html#tabs). So if we have more number of tabs and if we want to show them in mobile devices its very difficult to show them as it is.
-the solution can be converting the tab to a <code>select box</code>.
+the solution can be converting the tab to a <code class="highlighter-rouge">select box</code>.
 few other solutions
 https://github.com/mlbli/Responsive-tabs</p>
 
@@ -273,7 +273,7 @@ https://github.com/mlbli/Responsive-tabs</p>
         </div>
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-<script src="/assets/main.js"></script>
+<script type="text/javascript" src="/assets/main.js"></script>
 
 
 
