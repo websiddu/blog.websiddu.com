@@ -6,6 +6,34 @@ cover: images/covers/morning-thoughts.jpg
 
 Here are the list of morning thoughts I had from the past few weeks, some might sound stupid but they are really deep you just have to think which we general do less these days.
 
+> Certainty will make your life lazy and boring. Be uncertain and expect the unexpected to make your life more lively.
+
+> Before you think about the things that you don't have, think about the things you have and appreciate them.
+
+> Forgiveness is like climbing to the top of a steep mountain. It's hard, but once you reach there you are on the TOP.
+
+> Emotions are like sudden waves in an ocean journey. They will take u in a wrong direction, if you don't navigate properly.
+
+> Trust is a mysterious concept like a kids brain. None knows how it works or why it works.
+
+> Beliefs are generally your wishes that you think would happen. All wishes won't happen, similarly not all beliefs are true.
+
+> Listen to everyone, but at the end do whatever you like. After all you are responsible for your own actions.
+
+> Knowledge that is not shared with the right audiences is like a rain in the middle of an ocean. It's kind of useless.
+
+> Seeking attention from other people is like seeking attention from a cat. They don't give af. Don't keep expectations.
+
+> Fire will be seen even in the dark. Truth prevails over lies and falsehood  eventually.
+
+> For every action there is an equal and  opposite reaction. Which is also called karma. Do good to get good.
+
+> Dog should control its tail.. not the other way. Make sure only you control your life and not anyone else.
+
+> U don't have the right to choose ur birth, parents, color or death. But u have all rights to choose ur life. Make it count.
+
+> You r lucky to have that one person who loves u & stays with u forever without any blood relation. Love & don't loose them.
+
 > Ur enemy will be ur friend in deep forest when you both r alone. Enmity is situational. Don't make enemies. Make friends.
 
 > You cannot unring a bell. Be careful with what you speak.
@@ -44,7 +72,4 @@ Here are the list of morning thoughts I had from the past few weeks, some might 
 
 For more stuff follow [http://twitter.com/websiddu](http://twitter.com/websiddu)
 
-Last update on Mon 2:28 PM, Feb 13, 2017
-
-
-
+Last update on Mon 5:00 PM, May 21, 2017
