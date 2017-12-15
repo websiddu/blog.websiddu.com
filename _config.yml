@@ -40,8 +40,9 @@ inc:
 url:         http://0.0.0.0:4000
 source:      .
 destination: ./_site
-plugins_dir:     ./_plugins
-layouts_dir:     ./_layouts
+collections_dir: .
+plugins_dir: _plugins
+layouts_dir: _layouts
 include:     ['.htaccess']
 incremental: true
 # Exclude the following from the Jekyll build process.
@@ -100,10 +101,8 @@ kramdown:
 redcloth:
   hard_breaks: true
 
-
 gems:
   - jekyll-assets
-  - jekyll-archives
 
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
