@@ -4,7 +4,7 @@
  <title></title>
  <link href="http://0.0.0.0:4000//atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000//"/>
- <updated>2017-12-15T04:37:51+00:00</updated>
+ <updated>2017-12-15T04:39:35+00:00</updated>
  <id>http://0.0.0.0:4000</id>
  <author>
    <name></name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Building a design portfolio website</title>
    <link href="http://0.0.0.0:4000/building-your-design-portfolio.html"/>
-   <updated>2017-12-15T04:33:36+00:00</updated>
+   <updated>2017-12-15T04:39:34+00:00</updated>
    <id>http://0.0.0.0:4000//building-your-design-portfolio</id>
    <content type="html">&lt;p&gt;Building a design portfolio website can be a daunting task especially when you are just starting with your design career or you are design student with no coding skills. I have heard many question from my classmates asking where do I start. In this post I will try to explain how to build a portfolio website end to end. I will try to cover most of the topics in detail. I divided this post into different parts, in the first part I will explain the purpose of the design portfolio website, in the second part I will give some ideas to design the layout of your website, in the third part we will see different options for building the website and finally different options to deploy your website.&lt;/p&gt;
 
